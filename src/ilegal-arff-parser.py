@@ -1,6 +1,9 @@
+#!/usr/bin/env python3
+
 import csv
 import pandas
 import arff
+import os
 
 def divide(file):
     df = pandas.read_csv(file)
@@ -18,3 +21,4 @@ if __name__ == "__main__":
     pandas_learn, pandas_evaluate = divide(file)
     to_arff(pandas_learn, 'learn.arff')
     to_arff(pandas_evaluate, 'evaluate.arff')
+    os.system("rm arff/* && mv *.arff arff/")
