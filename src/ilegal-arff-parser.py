@@ -42,7 +42,7 @@ def to_arff(df, filename):
       , names=df.columns)
 
 if __name__ == "__main__":
-    file = "barca-mini.csv"
+    file = "barca.csv"
     pandas_learn, pandas_evaluate = divide(file)
     to_arff(pandas_learn, 'learn.arff')
     to_arff(pandas_evaluate, 'evaluate.arff')
