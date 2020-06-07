@@ -6,6 +6,7 @@ import random
 from shutil import copyfile
 
 
+
 def divide_dataset(dataset):
     random.seed(33543)  # Ultimos 5 digitos del DNI de algun miembro del grupo
 
@@ -37,10 +38,10 @@ def parse_to_arff(csv_file):
     set_attributes(tmp, get_attributes_type(csv_file))
 
     with open(csv_file, 'r') as f:
-        f.readline()
+        f.readline() # Descartamos la primera linea (Atributos)
         tmp.write("@DATA\n")
         for line in f:
-            tmp.write(line)
+            tmp.write(set_data(line)+"\n")
 
     tmp.close()
     copyfile("tmp",csv_file)
@@ -55,12 +56,18 @@ def get_attributes_type(file):
         first_row = f.readline().strip().split(",")
 
         for item in zip(attributes_name, first_row):
-            if item[1].replace(".", "", 1).isdigit():
-                attribute_name_type[item[0]] = "NUMERIC"
-            else:
-                attribute_name_type[item[0]] = "STRING"
+            attribute_name_type[item[0]] = get_type(item[1])
 
     return attribute_name_type
+
+
+def get_type(element):
+    if element.isdigit():
+        return "INTEGER"
+    elif element.replace(".", "", 1).isdigit():
+        return "REAL"
+    else:
+        return "STRING"
 
 
 def set_attributes(file, attributes):
@@ -73,7 +80,19 @@ def set_attributes(file, attributes):
 
 
 def set_data(data_row):
-    pass
+    data = []
+    raw_data = data_row.strip().split(",")
+
+    for element in raw_data:
+        if get_type(element) == "REAL":
+            number = element.split(".")
+            result_number = number[0]+"."+number[1][:3]
+            data.append(result_number)
+        else:
+            data.append(element)
+
+    data = ",".join(data)
+    return data
 
 
 def main():
