@@ -14,16 +14,16 @@ def divide(file):
     for i in range(int(percent*0.75)):
         row =  df.sample(n=1)
         print(row)
-        dl.append(row, ignore_index=False)
+        dl = dl.append(row)
         df.drop(row.index)
     for i in range(int(percent*0.25)):
         row = df.sample(n=1)
         print(row)
-        de.append(row, ignore_index=False)
+        de = de.append(row)
         df.drop(row.index)
-    print("FILE:   ",df)
-    print("LEARN:  ",dl)
-    print("EVALUATE:   ",de)
+    print("\nFILE:   ",df)
+    print("\nLEARN:  ",dl)
+    print("\nEVALUATE:   ",de)
     return dl, de
 
 def to_arff(df, filename):
@@ -33,7 +33,7 @@ def to_arff(df, filename):
       , names=df.columns)
 
 if __name__ == "__main__":
-    file = "barca.csv"
+    file = "barca-mini.csv"
     pandas_learn, pandas_evaluate = divide(file)
     to_arff(pandas_learn, 'learn.arff')
     to_arff(pandas_evaluate, 'evaluate.arff')
