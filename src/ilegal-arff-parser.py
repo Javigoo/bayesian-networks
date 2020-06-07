@@ -30,7 +30,7 @@ def divide(file):
         row = df.sample(n=1)
         print(row)
         de = de.append(row)
-        df = df.drop(row.index)    
+        df = df.drop(row.index)
     print("\nFILE:   ",df)
     print("\nLEARN:  ",dl)
     print("\nEVALUATE:   ",de)
