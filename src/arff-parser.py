@@ -18,6 +18,7 @@ def divide_dataset(data_file):
         learning.write(atributos)
         evaluation.write(atributos)
 
+        # Divide el dataset en funcion del porcentaje de registros de entrada que queremos destinar al aprendizaje
         for row in data:
             if random.randint(1,100) <= percentage_for_learning:
                 learning.write(row)
