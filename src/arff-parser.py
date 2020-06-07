@@ -4,20 +4,27 @@ import csv
 import pandas
 import os
 import sys
+import random
 
 def divide_dataset(dataset):
-    seed = 33543 # Ultimos 5 digitos del DNI de algun miembro del grupo
-
-    atributos = "room_type,neighborhood,reviews,overall_satisfaction,accommodates,bedrooms,price,latitude,longitude"
+    random.seed(33543)  # Ultimos 5 digitos del DNI de algun miembro del grupo
 
     training = open(training_file, "w")
-    training.write(atributos)
-    training.write("Shared room,Eixample,27,4.5,10,1.0,264.0,41.391617,2.162516")
-    training.close()
-
     validation = open(validation_file, "w")
-    validation.write(atributos)
-    validation.write("Shared room,Sants-Montjuïc,13,4.0,12,1.0,129.0,41.373267999999996,2.170138")
+
+    with open(dataset, 'r') as f:
+        atributos = f.readline()
+
+        training.write(atributos)
+        validation.write(atributos)
+
+        for linea in f:
+            if random.randint(1,100) <= 75:
+                training.write(linea)
+            else:
+                validation.write(linea)
+
+    training.close()
     validation.close()
 
     # Falta dividir dataset en 2, aletoriamente con la seed. 75% para training y 25% validation
