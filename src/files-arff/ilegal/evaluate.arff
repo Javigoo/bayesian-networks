@@ -1,0 +1,42 @@
+@relation relation name
+@attribute room_type string
+@attribute neighborhood string
+@attribute reviews integer
+@attribute overall_satisfaction real
+@attribute accommodates integer
+@attribute bedrooms real
+@attribute price real
+@attribute latitude real
+@attribute longitude real
+@data
+'Private room','Eixample',91,5.0,1,1.0,31.0,41.405899,2.175224
+'Private room','Sant Andreu',4,4.5,1,1.0,34.0,41.421262,2.187743
+'Private room','Sant Andreu',4,4.5,1,1.0,34.0,41.421262,2.187743
+'Private room','Sant Andreu',4,4.5,1,1.0,34.0,41.421262,2.187743
+'Private room','Sant Martí',10,3.5,2,1.0,36.0,41.413333,2.215411
+'Private room','Horta-Guinardó',39,4.0,1,1.0,18.0,41.423182,2.175008
+'Private room','Horta-Guinardó',11,5.0,2,1.0,30.0,41.421425,2.145482
+'Private room','Sant Martí',12,5.0,2,1.0,36.0,41.393559,2.196599
+'Private room','Sant Martí',57,4.0,3,1.0,12.0,41.415893,2.215232
+'Private room','Horta-Guinardó',39,4.0,1,1.0,18.0,41.423182,2.175008
+'Private room','Eixample',340,4.5,1,1.0,21.0,41.407882,2.173106
+'Private room','Horta-Guinardó',108,4.5,4,1.0,22.0,41.420037,2.175508
+'Private room','Sant Martí',98,5.0,2,1.0,32.0,41.414205,2.187263
+'Private room','Sant Martí',57,4.0,3,1.0,12.0,41.415893,2.215232
+'Private room','Ciutat Vella',27,5.0,1,1.0,37.0,41.383723,2.181151
+'Private room','Sant Martí',50,4.5,1,1.0,24.0,41.412626,2.199638
+'Private room','Nou Barris',8,5.0,2,1.0,14.0,41.444017,2.174661
+'Private room','Eixample',114,4.5,1,1.0,30.0,41.407487,2.1771700000000003
+'Private room','Nou Barris',8,5.0,2,1.0,14.0,41.444017,2.174661
+'Private room','Eixample',10,5.0,1,1.0,30.0,41.405861,2.171088
+'Private room','Eixample',340,4.5,1,1.0,21.0,41.407882,2.173106
+'Private room','Eixample',10,5.0,1,1.0,30.0,41.405861,2.171088
+'Private room','Eixample',340,4.5,1,1.0,21.0,41.407882,2.173106
+'Private room','Sant Martí',98,5.0,2,1.0,32.0,41.414205,2.187263
+'Private room','Sant Martí',41,4.5,1,1.0,41.0,41.4111,2.185595
+'Private room','Eixample',340,4.5,1,1.0,21.0,41.407882,2.173106
+'Private room','Sant Martí',3,4.5,2,1.0,28.0,41.417514,2.214669
+'Private room','Sant Martí',10,3.5,2,1.0,36.0,41.413333,2.215411
+'Private room','Sant Martí',72,4.0,4,1.0,18.0,41.41396500000001,2.189975
+'Private room','Gràcia',18,5.0,1,1.0,28.0,41.40449,2.165428
+'Private room','Sant Martí',41,4.5,1,1.0,41.0,41.4111,2.185595
