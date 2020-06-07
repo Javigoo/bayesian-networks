@@ -1,0 +1,20 @@
+@RELATION youlike
+
+@ATTRIBUTE ideo {iz,ce,de}
+@ATTRIBUTE sex {fem,mas}
+@ATTRIBUTE talks {no,little,alot}
+@ATTRIBUTE vege {yes,no}
+@ATTRIBUTE blade {yes,no}
+@ATTRIBUTE youlike {yes,no}
+
+@DATA
+iz,mas,no,yes,yes,yes
+iz,fem,no,yes,no,no
+iz,fem,no,yes,yes,yes
+ce,mas,little,yes,no,no
+ce,mas,little,no,yes,yes
+ce,mas,little,no,no,no
+de,mas,alot,no,yes,no
+iz,fem,alot,no,no,yes
+de,fem,alot,no,yes,no
+iz,fem,alot,no,no,yes
