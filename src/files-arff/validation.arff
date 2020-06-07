@@ -1,4 +1,16 @@
-room_type,neighborhood,reviews,overall_satisfaction,accommodates,bedrooms,price,latitude,longitude
+@RELATION AirBnB
+
+@ATTRIBUTE room_type STRING
+@ATTRIBUTE neighborhood STRING
+@ATTRIBUTE reviews NUMERIC
+@ATTRIBUTE overall_satisfaction NUMERIC
+@ATTRIBUTE accommodates NUMERIC
+@ATTRIBUTE bedrooms NUMERIC
+@ATTRIBUTE price NUMERIC
+@ATTRIBUTE latitude NUMERIC
+@ATTRIBUTE longitude NUMERIC
+
+@DATA
 Shared room,Sants-Montjuïc,13,4.0,12,1.0,129.0,41.373267999999996,2.170138
 Shared room,Eixample,4,4.0,6,1.0,193.0,41.392044,2.153721
 Shared room,Sants-Montjuïc,8,4.0,4,1.0,114.0,41.372717,2.1691439999999997

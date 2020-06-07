@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-import csv
-import pandas
 import os
 import sys
 import random
+from shutil import copyfile
+
 
 def divide_dataset(dataset):
     random.seed(33543)  # Ultimos 5 digitos del DNI de algun miembro del grupo
@@ -26,22 +26,63 @@ def divide_dataset(dataset):
 
     training.close()
     validation.close()
-    # Falta dividir dataset en 2, aletoriamente con la seed. 75% para training y 25% validation
 
-def parse_to_arff(csv_dataset_file):
+
+def parse_to_arff(csv_file):
     # Falta trasformar atributos a valor discreto
-    data = pandas.read_csv(csv_dataset_file)
-    print("\n",data)
+    tmp = open("tmp", "w")
+
+    tmp.write("@RELATION AirBnB\n")
+
+    set_attributes(tmp, get_attributes_type(csv_file))
+
+    with open(csv_file, 'r') as f:
+        f.readline()
+        tmp.write("@DATA\n")
+        for line in f:
+            tmp.write(line)
+
+    tmp.close()
+    copyfile("tmp",csv_file)
+    os.remove("tmp")
+
+
+def get_attributes_type(file):
+    attribute_name_type = {}
+
+    with open(file, 'r') as f:
+        attributes_name = f.readline().strip().split(",")
+        first_row = f.readline().strip().split(",")
+
+        for item in zip(attributes_name, first_row):
+            if item[1].replace(".", "", 1).isdigit():
+                attribute_name_type[item[0]] = "NUMERIC"
+            else:
+                attribute_name_type[item[0]] = "STRING"
+
+    return attribute_name_type
+
+
+def set_attributes(file, attributes):
+    file.write("\n")
+
+    for attribute in attributes.items():
+        file.write("@ATTRIBUTE " + attribute[0] + " " + attribute[1] + "\n")
+
+    file.write("\n")
+
+
+def set_data(data_row):
+    pass
+
 
 def main():
     divide_dataset(dataset_file)
     parse_to_arff(training_file)
     parse_to_arff(validation_file)
 
-if __name__ == "__main__":
-    # Temporal
-    print("usage example: ./arff-parser.py barca.csv files-arff/training.arff files-arff/validation.arff")
 
+if __name__ == "__main__":
     if len(sys.argv) < 4:
         sys.exit("Use: %s <csv-dataset-file> <arff-training-file> <arff-validation-file>" % sys.argv[0])
 
