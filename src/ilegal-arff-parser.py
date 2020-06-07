@@ -13,12 +13,17 @@ def divide(file):
     dl = de = pandas.DataFrame( )
     for i in range(int(percent*0.75)):
         row = df.sample(n=1)
+        print(row)
         dl.append(row)
-        df.drop(row)
+        df.drop(row.index)
     for i in range(int(percent*0.25)):
         row = df.sample(n=1)
+        print(row)
         de.append(row)
-        de.drop(row)
+        df.drop(row.index)
+    print("FILE:   ",df)
+    print("LEARN:  ",dl)
+    print("EVALUATE:   ",de)
     return dl, de
 
 def to_arff(df, filename):
