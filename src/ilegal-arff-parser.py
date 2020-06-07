@@ -6,6 +6,7 @@ import arff
 import os
 
 def divide(file):
+    seed = 33543 
     df = pandas.read_csv(file)
     print(df)
     #75% - 25%
@@ -13,13 +14,13 @@ def divide(file):
     dl = de = pandas.DataFrame( )
     #75% para Learn.
     for i in range(int(percent*0.75)):
-        row =  df.sample(n=1)
+        row =  df.sample(n=1, random_state=seed)
         print(row)
         dl = dl.append(row)
         df = df.drop(row.index)
     #25% para Evaluate.
     for i in range(int(percent*0.25)):
-        row = df.sample(n=1)
+        row = df.sample(n=1, random_state=seed)
         print(row)
         de = de.append(row)
         df = df.drop(row.index)
