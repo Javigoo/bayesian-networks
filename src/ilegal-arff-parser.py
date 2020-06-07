@@ -10,13 +10,12 @@ def divide(file):
     print(df)
     #75% - 25%
     percent = len(df.index)
-    dl = de = pandas.DataFrame()
-    for i in range(percent*0.75):
+    dl = de = pandas.DataFrame( )
+    for i in range(int(percent*0.75)):
         row = df.sample(n=1)
         dl.append(row)
         df.drop(row)
-        
-    for i in range(percent*0.25):
+    for i in range(int(percent*0.25)):
         row = df.sample(n=1)
         de.append(row)
         de.drop(row)
