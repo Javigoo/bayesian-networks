@@ -9,7 +9,7 @@ def divide(file):
     df = pandas.read_csv(file)
     print(df)
     #75% - 25%
-    percent = df.len()
+    percent = len(df.index)
     dl = de = pandas.DataFrame()
     for i in range(percent*0.75):
         row = df.sample(n=1)
