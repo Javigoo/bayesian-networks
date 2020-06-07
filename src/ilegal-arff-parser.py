@@ -8,7 +8,19 @@ import os
 def divide(file):
     df = pandas.read_csv(file)
     print(df)
-    return df, df
+    #75% - 25%
+    percent = df.len()
+    dl = de = pandas.DataFrame()
+    for i in range(percent*0.75):
+        row = df.sample(n=1)
+        dl.append(row)
+        df.drop(row)
+        
+    for i in range(percent*0.25):
+        row = df.sample(n=1)
+        de.append(row)
+        de.drop(row)
+    return dl, de
 
 def to_arff(df, filename):
     arff.dump(filename
