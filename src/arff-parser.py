@@ -26,7 +26,6 @@ def divide_dataset(dataset):
 
     training.close()
     validation.close()
-
     # Falta dividir dataset en 2, aletoriamente con la seed. 75% para training y 25% validation
 
 def parse_to_arff(csv_dataset_file):
