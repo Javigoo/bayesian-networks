@@ -11,16 +11,25 @@ def divide(file):
     #75% - 25%
     percent = len(df.index)
     dl = de = pandas.DataFrame( )
+    #75% para Learn.
     for i in range(int(percent*0.75)):
         row =  df.sample(n=1)
         print(row)
         dl = dl.append(row)
         df = df.drop(row.index)
+    #25% para Evaluate.
     for i in range(int(percent*0.25)):
         row = df.sample(n=1)
         print(row)
         de = de.append(row)
         df = df.drop(row.index)
+    #Por si queda uno, debido a la
+    #forma en que tratamos los %.
+    if len(df.index) == 1:
+        row = df.sample(n=1)
+        print(row)
+        de = de.append(row)
+        df = df.drop(row.index)    
     print("\nFILE:   ",df)
     print("\nLEARN:  ",dl)
     print("\nEVALUATE:   ",de)
