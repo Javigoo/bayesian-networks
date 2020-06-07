@@ -12,9 +12,9 @@ def divide(file):
     percent = len(df.index)
     dl = de = pandas.DataFrame( )
     for i in range(int(percent*0.75)):
-        row = df.sample(n=1)
+        row =  df.sample(n=1)
         print(row)
-        dl.append(row)
+        dl.append(row, ignore_index=False)
         df.drop(row.index)
     for i in range(int(percent*0.25)):
         row = df.sample(n=1)
