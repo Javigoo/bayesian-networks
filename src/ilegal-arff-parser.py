@@ -19,7 +19,7 @@ def divide(file):
     for i in range(int(percent*0.25)):
         row = df.sample(n=1)
         print(row)
-        de.append(row)
+        de.append(row, ignore_index=False)
         df.drop(row.index)
     print("FILE:   ",df)
     print("LEARN:  ",dl)

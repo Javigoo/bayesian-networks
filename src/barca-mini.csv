@@ -1,0 +1,842 @@
+room_type,neighborhood,reviews,overall_satisfaction,accommodates,bedrooms,price,latitude,longitude
+Private room,Sant Martí,118,4.5,2,1.0,41.0,41.390011,2.195718
+Private room,Eixample,39,4.5,1,1.0,36.0,41.398491,2.1833720000000003
+Private room,Eixample,17,4.5,2,1.0,38.0,41.396589,2.185897
+Private room,Eixample,43,4.5,3,1.0,35.0,41.393751,2.18269
+Private room,Sant Martí,4,4.0,2,1.0,37.0,41.398842,2.1873299999999998
+Private room,Sant Martí,3,3.5,1,1.0,36.0,41.39411,2.190097
+Private room,Eixample,45,4.5,3,2.0,38.0,41.394141,2.180877
+Private room,Eixample,20,4.5,2,1.0,36.0,41.392542999999996,2.180935
+Private room,Eixample,4,4.0,2,0.0,36.0,41.404854,2.181539
+Private room,Sant Martí,106,4.5,1,1.0,29.0,41.391809,2.188768
+Private room,Sant Martí,5,4.5,1,1.0,39.0,41.394242999999996,2.186777
+Private room,Sant Martí,64,4.5,1,1.0,36.0,41.399049,2.187369
+Private room,Eixample,11,3.5,1,1.0,34.0,41.398809,2.182824
+Private room,Eixample,24,4.5,1,1.0,38.0,41.397463,2.185621
+Private room,Eixample,8,4.5,2,1.0,37.0,41.40097,2.181606
+Private room,Eixample,3,5.0,1,1.0,31.0,41.401627000000005,2.18321
+Private room,Sant Martí,5,5.0,1,1.0,35.0,41.397374,2.18736
+Private room,Gràcia,19,4.5,1,1.0,24.0,41.405566,2.168893
+Private room,Horta-Guinardó,4,4.5,1,1.0,18.0,41.410903000000005,2.170234
+Private room,Gràcia,14,5.0,4,2.0,30.0,41.405927,2.163193
+Private room,Gràcia,46,4.5,1,1.0,30.0,41.406157,2.1623799999999997
+Private room,Horta-Guinardó,35,5.0,1,1.0,36.0,41.408445,2.169265
+Private room,Gràcia,16,5.0,1,1.0,30.0,41.407871,2.1612709999999997
+Private room,Sant Andreu,40,4.5,1,1.0,16.0,41.418592,2.186904
+Private room,Sant Martí,62,4.0,1,1.0,18.0,41.414246999999996,2.178484
+Private room,Horta-Guinardó,19,4.5,2,1.0,36.0,41.415129,2.178218
+Private room,Horta-Guinardó,6,5.0,1,1.0,30.0,41.417002000000004,2.167909
+Private room,Eixample,7,4.5,2,1.0,38.0,41.409265999999995,2.173693
+Private room,Eixample,45,5.0,2,1.0,36.0,41.408553000000005,2.17801
+Private room,Horta-Guinardó,11,4.0,2,1.0,38.0,41.410958,2.171816
+Private room,Horta-Guinardó,17,5.0,2,1.0,34.0,41.416526,2.165389
+Private room,Eixample,16,4.0,2,1.0,28.0,41.408093,2.1728680000000002
+Private room,Horta-Guinardó,10,4.5,2,1.0,24.0,41.415646,2.166451
+Private room,Horta-Guinardó,9,4.5,2,1.0,34.0,41.416614,2.176387
+Private room,Eixample,57,5.0,2,1.0,36.0,41.41154,2.174941
+Private room,Gràcia,18,5.0,1,1.0,36.0,41.410077,2.163793
+Private room,Horta-Guinardó,24,5.0,2,1.0,38.0,41.410959999999996,2.166271
+Private room,Sant Martí,6,4.0,1,1.0,36.0,41.415714,2.184072
+Private room,Horta-Guinardó,36,5.0,2,1.0,29.0,41.418848,2.169451
+Private room,Horta-Guinardó,74,4.5,2,1.0,27.0,41.415457,2.163031
+Private room,Horta-Guinardó,78,4.5,4,1.0,27.0,41.419222999999995,2.175153
+Private room,Sant Martí,18,5.0,1,1.0,18.0,41.412194,2.198204
+Private room,Sant Martí,3,4.5,1,1.0,30.0,41.408972999999996,2.183267
+Private room,Sant Martí,25,4.5,2,1.0,22.0,41.414485,2.18506
+Private room,Sant Martí,3,4.5,2,1.0,31.0,41.411663,2.189029
+Private room,Sant Martí,3,4.5,1,3.0,30.0,41.41417,2.181861
+Private room,Sant Martí,12,4.5,2,1.0,39.0,41.40852,2.186096
+Private room,Sant Martí,18,4.5,2,1.0,28.0,41.409965,2.182089
+Private room,Sant Martí,28,4.0,2,1.0,37.0,41.411262,2.184758
+Private room,Sant Andreu,6,5.0,2,1.0,34.0,41.418353,2.181053
+Private room,Sant Martí,3,5.0,1,1.0,36.0,41.410574,2.184741
+Private room,Sant Andreu,9,5.0,1,1.0,24.0,41.415884999999996,2.186799
+Private room,Sant Martí,16,4.0,2,1.0,36.0,41.413229,2.188956
+Private room,Sant Andreu,14,5.0,2,1.0,36.0,41.418465999999995,2.189567
+Private room,Sant Martí,4,5.0,2,1.0,30.0,41.414182000000004,2.1913150000000003
+Private room,Sant Andreu,5,4.0,1,1.0,18.0,41.418562,2.189516
+Private room,Sant Martí,17,4.5,2,1.0,29.0,41.410376,2.181489
+Private room,Sant Martí,3,5.0,1,1.0,36.0,41.415627,2.184776
+Private room,Sant Martí,23,5.0,2,1.0,36.0,41.411232,2.183068
+Private room,Sant Andreu,4,5.0,2,1.0,38.0,41.414771,2.188193
+Private room,Sant Andreu,20,4.0,2,1.0,31.0,41.419174,2.18772
+Private room,Sant Martí,3,5.0,1,1.0,30.0,41.40883,2.182931
+Private room,Sant Andreu,3,4.5,1,1.0,30.0,41.416517999999996,2.1878130000000002
+Private room,Sant Martí,28,4.5,2,1.0,36.0,41.409648,2.188125
+Private room,Sant Martí,31,4.5,2,1.0,39.0,41.411582,2.1835009999999997
+Private room,Sant Martí,47,5.0,2,1.0,30.0,41.413319,2.184705
+Private room,Sant Martí,9,5.0,2,1.0,35.0,41.412477,2.190831
+Private room,Sant Andreu,3,4.5,2,1.0,41.0,41.419157,2.188934
+Private room,Sant Martí,5,5.0,1,1.0,29.0,41.408521,2.190961
+Private room,Sant Andreu,11,5.0,2,1.0,24.0,41.416064,2.189087
+Private room,Sant Martí,33,4.5,2,1.0,36.0,41.412048,2.1810490000000002
+Private room,Sant Martí,88,5.0,1,1.0,39.0,41.408852,2.189674
+Private room,Sant Martí,80,4.5,2,1.0,28.0,41.418118,2.201196
+Private room,Sant Andreu,70,5.0,2,1.0,36.0,41.420784000000005,2.186633
+Private room,Sant Andreu,9,3.5,2,1.0,39.0,41.418908,2.1891439999999998
+Private room,Sant Martí,13,5.0,3,2.0,37.0,41.415561,2.194842
+Private room,Sant Martí,4,5.0,1,1.0,35.0,41.411642,2.182714
+Private room,Eixample,30,4.5,2,1.0,35.0,41.401359,2.185737
+Private room,Eixample,26,5.0,1,1.0,34.0,41.409675,2.175049
+Private room,Horta-Guinardó,21,4.5,2,1.0,36.0,41.417834,2.173129
+Private room,Sant Martí,19,5.0,2,1.0,33.0,41.411805,2.186634
+Private room,Eixample,22,4.5,2,1.0,34.0,41.396858,2.186271
+Private room,Gràcia,51,5.0,1,1.0,39.0,41.406873,2.167959
+Private room,Eixample,36,4.5,2,1.0,30.0,41.396764000000005,2.185654
+Private room,Sant Martí,17,5.0,2,1.0,36.0,41.413078999999996,2.196756
+Private room,Gràcia,81,4.5,2,1.0,24.0,41.401919,2.1684810000000003
+Private room,Eixample,75,4.0,2,1.0,18.0,41.396434,2.178232
+Private room,Sant Martí,38,4.5,2,1.0,36.0,41.411457,2.177669
+Private room,Eixample,12,4.5,1,0.0,24.0,41.400864,2.1675240000000002
+Private room,Sant Martí,11,3.5,2,1.0,39.0,41.408514000000004,2.186359
+Private room,Eixample,25,4.5,1,1.0,36.0,41.399465,2.17782
+Private room,Eixample,3,5.0,2,1.0,38.0,41.401089,2.175402
+Private room,Eixample,25,4.5,1,1.0,30.0,41.400496000000004,2.1745919999999996
+Private room,Sant Martí,24,4.5,2,1.0,27.0,41.405283000000004,2.1863509999999997
+Private room,Eixample,34,4.5,1,1.0,28.0,41.399889,2.176376
+Private room,Eixample,15,4.5,2,1.0,32.0,41.403655,2.174625
+Private room,Eixample,13,4.5,2,1.0,36.0,41.404762,2.17516
+Private room,Horta-Guinardó,6,4.5,2,1.0,28.0,41.411384000000005,2.165512
+Private room,Eixample,56,4.5,2,1.0,20.0,41.399234,2.17798
+Private room,Eixample,5,4.0,2,1.0,36.0,41.397953,2.170716
+Private room,Sant Martí,70,4.5,2,1.0,41.0,41.411749,2.185423
+Private room,Horta-Guinardó,161,5.0,1,1.0,29.0,41.408590999999994,2.1703919999999997
+Private room,Horta-Guinardó,58,4.5,1,1.0,30.0,41.409346,2.169433
+Private room,Eixample,3,3.0,1,1.0,30.0,41.401925,2.178782
+Private room,Horta-Guinardó,47,4.0,2,1.0,24.0,41.418504999999996,2.1795430000000002
+Private room,Eixample,30,4.5,2,1.0,30.0,41.40453,2.173737
+Private room,Sant Martí,5,5.0,1,1.0,25.0,41.408640000000005,2.181285
+Private room,Eixample,28,4.5,1,1.0,30.0,41.401363,2.176734
+Private room,Eixample,87,5.0,1,1.0,38.0,41.409163,2.172463
+Private room,Eixample,37,4.5,2,1.0,27.0,41.399316999999996,2.1804509999999997
+Private room,Horta-Guinardó,51,4.0,2,1.0,30.0,41.416942999999996,2.1705490000000003
+Private room,Sant Martí,58,4.0,2,1.0,25.0,41.410585,2.18364
+Private room,Sant Martí,59,4.5,1,1.0,24.0,41.407143,2.188991
+Private room,Sant Martí,3,5.0,1,1.0,30.0,41.411813,2.179243
+Private room,Eixample,48,5.0,1,1.0,24.0,41.404074,2.174371
+Private room,Sant Martí,51,4.5,1,1.0,36.0,41.411697,2.179025
+Private room,Eixample,7,3.5,2,0.0,36.0,41.402497,2.1777900000000003
+Private room,Horta-Guinardó,8,4.5,1,1.0,14.0,41.411264,2.17048
+Private room,Sant Martí,6,5.0,1,1.0,39.0,41.410478999999995,2.187157
+Private room,Sant Martí,31,4.5,2,1.0,38.0,41.413283,2.1775849999999997
+Private room,Eixample,6,4.5,2,1.0,35.0,41.40058,2.180909
+Private room,Eixample,35,4.5,1,1.0,36.0,41.404514,2.175502
+Private room,Eixample,31,5.0,2,1.0,36.0,41.397313,2.174677
+Private room,Sant Martí,52,4.5,2,1.0,34.0,41.411815000000004,2.179766
+Private room,Sant Martí,70,4.0,2,1.0,23.0,41.411155,2.184386
+Private room,Eixample,4,4.5,1,1.0,22.0,41.407181,2.173931
+Private room,Sant Martí,14,4.5,2,1.0,37.0,41.411361,2.183808
+Private room,Gràcia,26,4.5,2,1.0,23.0,41.402041,2.1688419999999997
+Private room,Eixample,154,5.0,2,1.0,24.0,41.405088,2.174522
+Private room,Eixample,21,5.0,2,4.0,36.0,41.402213,2.177318
+Private room,Eixample,111,5.0,2,1.0,22.0,41.401205,2.1813919999999998
+Private room,Sant Martí,66,5.0,2,1.0,36.0,41.397556,2.198481
+Private room,Sant Martí,49,5.0,2,1.0,34.0,41.398744,2.19984
+Private room,Sant Martí,9,5.0,2,1.0,41.0,41.417795,2.19995
+Private room,Sant Martí,12,4.5,1,1.0,24.0,41.413159,2.207594
+Private room,Sant Martí,12,4.5,1,1.0,23.0,41.406737,2.194253
+Private room,Ciutat Vella,17,5.0,2,1.0,38.0,41.382026,2.179688
+Private room,Sants-Montjuïc,5,5.0,1,1.0,37.0,41.374818,2.172472
+Private room,Ciutat Vella,56,4.5,1,1.0,18.0,41.385598,2.180685
+Private room,Ciutat Vella,57,4.5,2,2.0,23.0,41.378665999999996,2.171092
+Private room,Ciutat Vella,29,4.5,3,1.0,36.0,41.380509,2.1726650000000003
+Private room,Ciutat Vella,44,4.0,2,1.0,36.0,41.378919,2.17942
+Private room,Ciutat Vella,134,4.5,2,1.0,18.0,41.380364,2.178722
+Private room,Ciutat Vella,252,4.5,1,1.0,30.0,41.387170000000005,2.172428
+Private room,Ciutat Vella,26,4.0,2,1.0,36.0,41.379773,2.1883470000000003
+Private room,Ciutat Vella,37,4.5,2,1.0,27.0,41.377595,2.171309
+Private room,Ciutat Vella,172,4.5,2,1.0,37.0,41.375808,2.172422
+Private room,Ciutat Vella,189,4.5,2,1.0,34.0,41.387213,2.176413
+Private room,Ciutat Vella,18,5.0,2,1.0,31.0,41.385843,2.171482
+Private room,Ciutat Vella,53,4.5,2,1.0,36.0,41.387009,2.175611
+Private room,Ciutat Vella,27,4.0,2,1.0,27.0,41.382209,2.181962
+Private room,Ciutat Vella,46,4.5,1,1.0,35.0,41.387273,2.178413
+Private room,Sant Martí,27,4.5,2,1.0,37.0,41.394678000000006,2.189895
+Private room,Ciutat Vella,21,4.5,2,1.0,30.0,41.379521999999994,2.175737
+Private room,Ciutat Vella,83,4.5,4,1.0,34.0,41.381769,2.178999
+Private room,Ciutat Vella,67,4.0,2,1.0,35.0,41.3856,2.171004
+Private room,Ciutat Vella,194,4.5,1,1.0,30.0,41.385807,2.1766259999999997
+Private room,Sant Martí,6,5.0,2,1.0,41.0,41.39217,2.18413
+Private room,Ciutat Vella,69,4.5,2,1.0,36.0,41.387259,2.178359
+Private room,Ciutat Vella,25,5.0,1,1.0,25.0,41.376011,2.173639
+Private room,Ciutat Vella,8,5.0,2,1.0,36.0,41.387186,2.181156
+Private room,Ciutat Vella,31,4.5,1,1.0,32.0,41.389864,2.181085
+Private room,Sant Martí,61,5.0,1,1.0,35.0,41.391002,2.188573
+Private room,Ciutat Vella,16,4.5,1,1.0,31.0,41.377479,2.189273
+Private room,Ciutat Vella,49,4.5,2,1.0,30.0,41.386424,2.172648
+Private room,Ciutat Vella,88,4.5,2,1.0,30.0,41.380573999999996,2.176103
+Private room,Ciutat Vella,33,5.0,1,1.0,30.0,41.379163,2.189568
+Private room,Ciutat Vella,173,4.5,1,1.0,30.0,41.379312,2.176084
+Private room,Ciutat Vella,170,4.5,2,1.0,37.0,41.386272999999996,2.177732
+Private room,Ciutat Vella,8,5.0,1,1.0,31.0,41.37527,2.170978
+Private room,Ciutat Vella,4,5.0,1,1.0,34.0,41.382976,2.175302
+Private room,Ciutat Vella,169,4.5,1,1.0,27.0,41.385542,2.173984
+Private room,Ciutat Vella,21,4.5,2,1.0,24.0,41.389163,2.177605
+Private room,Sant Martí,36,4.5,1,1.0,30.0,41.390703,2.189875
+Private room,Sant Martí,19,4.5,2,1.0,31.0,41.389676,2.190848
+Private room,Ciutat Vella,260,5.0,2,1.0,30.0,41.385005,2.180613
+Private room,Eixample,7,4.5,1,1.0,30.0,41.399203,2.1663580000000002
+Private room,Gràcia,27,4.5,2,1.0,31.0,41.398978,2.161378
+Private room,Eixample,4,2.0,2,1.0,24.0,41.390097,2.163348
+Private room,Eixample,3,5.0,1,1.0,30.0,41.400201,2.166804
+Private room,Eixample,27,3.5,2,1.0,23.0,41.398796999999995,2.175487
+Private room,Eixample,14,4.5,2,1.0,36.0,41.388486,2.159427
+Private room,Gràcia,68,4.5,2,1.0,36.0,41.399271,2.1604509999999997
+Private room,Eixample,4,5.0,2,1.0,36.0,41.388909000000005,2.160359
+Private room,Eixample,22,4.5,2,1.0,34.0,41.388317,2.160335
+Private room,Eixample,99,4.5,3,1.0,36.0,41.393161,2.165587
+Private room,Ciutat Vella,15,4.5,2,1.0,30.0,41.389199,2.176431
+Private room,Gràcia,3,5.0,1,1.0,36.0,41.398804999999996,2.159664
+Private room,Eixample,15,4.5,1,1.0,30.0,41.396685999999995,2.168705
+Private room,Eixample,18,4.5,4,3.0,37.0,41.389234,2.160098
+Private room,Eixample,103,5.0,1,1.0,41.0,41.396406,2.166843
+Private room,Eixample,125,4.5,2,1.0,29.0,41.387769,2.162518
+Private room,Eixample,187,4.5,2,1.0,24.0,41.387836,2.161194
+Private room,Eixample,5,4.5,1,1.0,37.0,41.401243,2.168114
+Private room,Eixample,105,4.5,1,1.0,38.0,41.390844,2.15945
+Private room,Gràcia,5,4.0,2,1.0,36.0,41.399313,2.1606669999999997
+Private room,Ciutat Vella,13,4.5,1,1.0,35.0,41.387991,2.176038
+Private room,Gràcia,34,4.5,2,1.0,36.0,41.399429999999995,2.159704
+Private room,Gràcia,4,4.5,2,1.0,37.0,41.400664,2.15998
+Private room,Gràcia,15,5.0,2,1.0,36.0,41.399273,2.1619450000000002
+Private room,Eixample,15,4.0,4,1.0,30.0,41.39056,2.163608
+Private room,Eixample,143,4.5,2,1.0,38.0,41.387652,2.165405
+Private room,Eixample,3,4.0,2,1.0,41.0,41.395846999999996,2.160559
+Private room,Ciutat Vella,116,4.5,2,1.0,24.0,41.388883,2.176364
+Private room,Gràcia,32,4.0,3,1.0,36.0,41.402737,2.163007
+Private room,Eixample,5,5.0,2,1.0,37.0,41.393206,2.171582
+Private room,Gràcia,5,5.0,1,1.0,38.0,41.399482,2.160272
+Private room,Eixample,19,4.5,1,1.0,35.0,41.39108,2.166434
+Private room,Eixample,5,4.5,2,1.0,37.0,41.393522999999995,2.160154
+Private room,Gràcia,11,5.0,1,1.0,31.0,41.39785,2.159898
+Private room,Eixample,27,4.0,2,1.0,36.0,41.397216,2.1697580000000003
+Private room,Eixample,9,5.0,1,1.0,18.0,41.393805,2.1800900000000003
+Private room,Ciutat Vella,14,3.5,2,1.0,36.0,41.387923,2.1724810000000003
+Private room,Ciutat Vella,3,4.5,2,1.0,39.0,41.388315000000006,2.177074
+Private room,Eixample,18,4.5,1,1.0,30.0,41.392070000000004,2.179279
+Private room,Eixample,68,4.0,3,1.0,32.0,41.398131,2.179584
+Private room,Eixample,9,4.5,2,1.0,36.0,41.396834999999996,2.178664
+Private room,Eixample,49,5.0,2,1.0,39.0,41.393260999999995,2.1738560000000002
+Private room,Eixample,6,4.5,1,1.0,24.0,41.398025,2.176869
+Private room,Eixample,3,4.5,1,1.0,30.0,41.395421,2.1763790000000003
+Private room,Eixample,4,5.0,1,1.0,36.0,41.400366999999996,2.178623
+Private room,Sant Martí,13,4.5,2,1.0,36.0,41.391371,2.1886419999999998
+Private room,Ciutat Vella,6,5.0,1,1.0,36.0,41.388296999999994,2.1810389999999997
+Private room,Eixample,18,4.0,2,1.0,29.0,41.399171,2.177493
+Private room,Eixample,14,4.5,2,1.0,38.0,41.388472,2.172686
+Private room,Ciutat Vella,5,5.0,2,1.0,38.0,41.388696,2.179344
+Private room,Eixample,10,4.5,1,1.0,30.0,41.398893,2.182016
+Private room,Ciutat Vella,21,4.5,2,2.0,38.0,41.388571999999996,2.176516
+Private room,Eixample,6,4.0,1,1.0,36.0,41.396019,2.175027
+Private room,Ciutat Vella,74,4.5,2,1.0,35.0,41.388469,2.17788
+Private room,Eixample,3,5.0,2,1.0,41.0,41.392571999999994,2.1735830000000003
+Private room,Eixample,5,5.0,3,2.0,36.0,41.398872999999995,2.1789009999999998
+Private room,Ciutat Vella,63,4.5,1,1.0,24.0,41.388535,2.179025
+Private room,Eixample,4,5.0,2,1.0,39.0,41.397419,2.1789509999999996
+Private room,Eixample,7,4.5,2,1.0,20.0,41.398496,2.184656
+Private room,Eixample,4,4.0,2,1.0,38.0,41.393359999999994,2.17381
+Private room,Eixample,3,4.5,1,1.0,24.0,41.399169,2.1735330000000004
+Private room,Eixample,27,4.5,1,1.0,18.0,41.39672,2.172847
+Private room,Ciutat Vella,102,4.0,1,1.0,27.0,41.387582,2.17976
+Private room,Eixample,36,5.0,2,1.0,38.0,41.398329,2.178425
+Private room,Eixample,7,5.0,2,1.0,35.0,41.397225,2.184629
+Private room,Eixample,6,4.0,2,1.0,32.0,41.389165000000006,2.174857
+Private room,Eixample,3,3.5,3,1.0,30.0,41.389808,2.1768549999999998
+Private room,Eixample,141,4.5,3,2.0,36.0,41.403156,2.178112
+Private room,Eixample,3,4.5,2,1.0,36.0,41.396921,2.178611
+Private room,Ciutat Vella,196,4.5,2,1.0,30.0,41.387714,2.176303
+Private room,Eixample,6,5.0,1,1.0,39.0,41.395364,2.179799
+Private room,Ciutat Vella,55,4.5,1,1.0,37.0,41.388816,2.183776
+Private room,Sant Martí,10,5.0,2,1.0,39.0,41.390951,2.1844330000000003
+Private room,Ciutat Vella,152,4.0,2,1.0,39.0,41.387454,2.1799779999999997
+Private room,Ciutat Vella,149,4.0,2,1.0,30.0,41.388177,2.17571
+Private room,Eixample,87,4.0,2,1.0,35.0,41.396702000000005,2.1810240000000003
+Private room,Eixample,7,4.0,1,1.0,35.0,41.395819,2.176827
+Private room,Gràcia,91,4.5,1,1.0,18.0,41.40638,2.168314
+Private room,Gràcia,50,4.5,2,1.0,34.0,41.404309999999995,2.165232
+Private room,Gràcia,8,5.0,2,1.0,36.0,41.402896999999996,2.160789
+Private room,Gràcia,8,4.5,2,1.0,32.0,41.401916,2.16293
+Private room,Eixample,6,5.0,1,1.0,28.0,41.400083,2.1716599999999997
+Private room,Gràcia,79,5.0,3,1.0,36.0,41.404123,2.166178
+Private room,Gràcia,20,4.0,2,1.0,28.0,41.403662,2.16427
+Private room,Gràcia,4,4.0,2,1.0,30.0,41.4004,2.163919
+Private room,Eixample,8,5.0,2,1.0,36.0,41.400032,2.164053
+Private room,Gràcia,12,4.5,2,1.0,41.0,41.403244,2.161139
+Private room,Gràcia,4,5.0,1,1.0,30.0,41.401986,2.163927
+Private room,Gràcia,3,5.0,2,1.0,31.0,41.402458,2.1649130000000003
+Private room,Gràcia,13,5.0,1,1.0,36.0,41.401911,2.159979
+Private room,Eixample,78,4.5,1,1.0,36.0,41.401078000000005,2.170361
+Private room,Gràcia,4,5.0,1,1.0,36.0,41.404232,2.170617
+Private room,Gràcia,15,4.5,2,1.0,22.0,41.401733,2.162509
+Private room,Gràcia,39,5.0,2,1.0,38.0,41.402721,2.159432
+Private room,Gràcia,28,4.5,1,1.0,30.0,41.405334,2.1604650000000003
+Private room,Gràcia,64,4.5,2,1.0,39.0,41.400715000000005,2.162357
+Private room,Sant Martí,18,5.0,2,1.0,38.0,41.405269,2.194633
+Private room,Sant Andreu,25,5.0,3,1.0,30.0,41.418007,2.191667
+Private room,Sant Martí,4,5.0,2,1.0,37.0,41.406162,2.1926069999999998
+Private room,Sant Martí,14,5.0,2,1.0,41.0,41.397927,2.194343
+Private room,Sant Martí,16,4.0,2,1.0,30.0,41.394294,2.202342
+Private room,Sant Martí,34,5.0,2,1.0,18.0,41.404973,2.2049279999999998
+Private room,Sant Martí,4,4.5,2,1.0,34.0,41.406526,2.19195
+Private room,Sant Martí,28,5.0,1,1.0,36.0,41.397646,2.207395
+Private room,Sant Martí,3,3.5,1,1.0,31.0,41.418014,2.1958349999999998
+Private room,Sant Martí,3,4.5,2,1.0,30.0,41.400015,2.194707
+Private room,Sant Martí,5,4.5,1,1.0,30.0,41.404984000000006,2.2046189999999997
+Private room,Sant Martí,3,4.5,2,1.0,31.0,41.425506,2.202381
+Private room,Sant Martí,6,4.0,1,0.0,36.0,41.401981,2.195482
+Private room,Sant Martí,6,4.5,1,1.0,28.0,41.405608,2.204811
+Private room,Sant Martí,24,4.5,2,1.0,36.0,41.401625,2.195373
+Private room,Sant Martí,5,5.0,2,1.0,38.0,41.398708,2.195718
+Private room,Sant Martí,13,5.0,2,1.0,36.0,41.416224,2.206014
+Private room,Sant Martí,9,4.0,2,1.0,27.0,41.417482,2.196958
+Private room,Sant Martí,12,5.0,1,1.0,30.0,41.404928000000005,2.200612
+Private room,Sant Martí,13,5.0,1,1.0,22.0,41.415243,2.1996599999999997
+Private room,Sant Martí,150,4.5,1,1.0,36.0,41.400182,2.1943610000000002
+Private room,Sant Martí,10,4.5,3,2.0,38.0,41.397803,2.198913
+Private room,Sant Martí,15,4.5,2,1.0,38.0,41.39865,2.1958729999999997
+Private room,Sant Martí,83,4.5,3,1.0,34.0,41.398533,2.196088
+Private room,Sant Martí,3,5.0,2,1.0,35.0,41.407857,2.204353
+Private room,Sant Martí,17,4.5,2,1.0,38.0,41.415448,2.1952689999999997
+Private room,Sant Martí,34,4.0,3,1.0,34.0,41.402928,2.20286
+Private room,Sant Martí,24,5.0,2,1.0,27.0,41.412473,2.1944049999999997
+Private room,Sant Martí,26,5.0,2,1.0,30.0,41.411306,2.2060419999999996
+Private room,Sant Martí,9,4.5,1,1.0,36.0,41.398749,2.19495
+Private room,Sant Martí,15,4.0,1,1.0,28.0,41.417714000000004,2.205567
+Private room,Sant Martí,82,5.0,2,1.0,36.0,41.402665,2.200883
+Private room,Sant Martí,39,5.0,1,1.0,30.0,41.405239,2.205765
+Private room,Sant Martí,5,4.5,1,1.0,36.0,41.401265,2.2035310000000004
+Private room,Sant Martí,158,4.5,1,1.0,36.0,41.400647,2.194868
+Private room,Sant Martí,33,4.0,5,1.0,39.0,41.398134000000006,2.204348
+Private room,Sant Martí,11,5.0,2,1.0,18.0,41.406857,2.205837
+Private room,Sant Martí,56,4.0,2,1.0,39.0,41.415439,2.211684
+Private room,Sant Martí,10,4.5,2,1.0,35.0,41.415397,2.218162
+Private room,Sant Martí,27,4.5,3,1.0,25.0,41.397967,2.1955430000000002
+Private room,Sant Martí,20,4.5,3,1.0,41.0,41.401697999999996,2.205562
+Private room,Sant Andreu,8,4.0,2,1.0,30.0,41.416897999999996,2.187118
+Private room,Eixample,13,4.5,1,1.0,36.0,41.405114000000005,2.180527
+Private room,Sant Andreu,67,4.5,1,1.0,18.0,41.416703000000005,2.189061
+Private room,Sant Martí,13,4.5,1,1.0,36.0,41.412244,2.1781919999999997
+Private room,Sant Martí,13,4.5,1,1.0,36.0,41.398984000000006,2.195335
+Private room,Eixample,56,4.5,2,1.0,24.0,41.398338,2.181984
+Private room,Sant Martí,73,4.0,2,1.0,23.0,41.411295,2.185367
+Private room,Eixample,86,4.5,1,1.0,36.0,41.394662,2.1806360000000002
+Private room,Horta-Guinardó,109,4.5,2,1.0,24.0,41.414682,2.17833
+Private room,Sant Martí,22,4.5,1,1.0,24.0,41.405632000000004,2.185462
+Private room,Sant Martí,12,4.5,2,1.0,23.0,41.416451,2.20555
+Private room,Eixample,11,5.0,1,2.0,35.0,41.401953000000006,2.178936
+Private room,Sant Martí,26,4.5,4,2.0,30.0,41.418434000000005,2.208555
+Private room,Sant Martí,113,4.5,3,1.0,30.0,41.403028000000006,2.1994830000000003
+Private room,Sant Martí,11,4.5,2,0.0,23.0,41.409946000000005,2.182998
+Private room,Sant Martí,32,4.5,2,1.0,36.0,41.396307,2.1892139999999998
+Private room,Eixample,11,5.0,2,1.0,30.0,41.405081,2.1799
+Private room,Eixample,53,4.5,1,1.0,30.0,41.40537,2.1789330000000002
+Private room,Ciutat Vella,11,5.0,2,1.0,34.0,41.380673,2.1810810000000003
+Private room,Sant Martí,18,5.0,1,1.0,27.0,41.404271,2.202876
+Private room,Sant Martí,16,4.5,2,1.0,36.0,41.399307,2.197126
+Private room,Sant Martí,4,5.0,2,1.0,24.0,41.415395000000004,2.216965
+Private room,Sant Martí,4,4.5,1,1.0,36.0,41.409414,2.20704
+Private room,Sant Martí,11,4.5,2,1.0,32.0,41.417413,2.212617
+Private room,Sant Martí,12,4.0,3,1.0,25.0,41.420446000000005,2.207158
+Private room,Eixample,6,4.0,1,1.0,34.0,41.398506,2.184241
+Private room,Sant Martí,17,4.5,1,1.0,38.0,41.406503,2.199623
+Private room,Sant Martí,31,4.5,2,1.0,39.0,41.414575,2.2154990000000003
+Private room,Sant Martí,47,4.5,2,1.0,30.0,41.405962,2.184834
+Private room,Sant Martí,12,5.0,2,1.0,39.0,41.402885,2.203881
+Private room,Sant Martí,24,5.0,1,1.0,35.0,41.398012,2.187332
+Private room,Horta-Guinardó,5,4.5,1,1.0,22.0,41.420228,2.178117
+Private room,Sant Martí,7,4.5,2,1.0,35.0,41.41239,2.186418
+Private room,Sant Martí,32,5.0,3,1.0,27.0,41.408190000000005,2.1876860000000002
+Private room,Eixample,14,4.5,1,1.0,32.0,41.398078999999996,2.185441
+Private room,Sant Martí,19,3.5,1,1.0,24.0,41.401315000000004,2.187852
+Private room,Sant Martí,36,4.5,2,1.0,36.0,41.395677,2.187801
+Private room,Eixample,173,4.5,2,1.0,18.0,41.398773,2.182227
+Private room,Ciutat Vella,111,5.0,1,1.0,36.0,41.386061,2.178947
+Private room,Eixample,55,4.0,1,1.0,24.0,41.399319,2.17965
+Private room,Ciutat Vella,170,4.5,2,1.0,29.0,41.380812,2.189823
+Private room,Sant Martí,168,4.5,2,1.0,23.0,41.414315,2.216863
+Private room,Sant Martí,15,5.0,1,1.0,30.0,41.408390000000004,2.188358
+Private room,Sant Martí,34,4.5,3,1.0,30.0,41.410263,2.186066
+Private room,Eixample,33,4.5,2,1.0,36.0,41.402719,2.178138
+Private room,Sant Martí,128,4.5,2,1.0,36.0,41.399288,2.20558
+Private room,Eixample,4,4.5,2,1.0,36.0,41.402136999999996,2.178316
+Private room,Sant Martí,11,4.5,2,1.0,38.0,41.404537,2.203145
+Private room,Sant Martí,53,4.5,2,1.0,36.0,41.409040999999995,2.1846240000000003
+Private room,Eixample,20,5.0,1,1.0,24.0,41.400991999999995,2.180001
+Private room,Ciutat Vella,191,4.5,1,1.0,24.0,41.37923,2.17814
+Private room,Sant Martí,24,4.0,2,1.0,39.0,41.402004999999996,2.200242
+Private room,Sant Andreu,9,4.5,1,1.0,27.0,41.421165,2.18988
+Private room,Sant Martí,40,4.5,2,1.0,41.0,41.405604,2.1982049999999997
+Private room,Sant Martí,34,4.0,2,1.0,31.0,41.414049,2.217212
+Private room,Sant Andreu,81,4.5,2,1.0,32.0,41.420825,2.186786
+Private room,Sant Martí,5,4.5,1,1.0,35.0,41.409659999999995,2.186218
+Private room,Sant Martí,41,4.0,2,1.0,36.0,41.391519,2.196225
+Private room,Sant Martí,25,5.0,1,1.0,35.0,41.397524,2.189972
+Private room,Sant Martí,46,4.5,1,1.0,22.0,41.395101000000004,2.196236
+Private room,Sant Martí,4,5.0,2,1.0,23.0,41.416392,2.215117
+Private room,Sant Martí,49,4.5,2,1.0,35.0,41.418890000000005,2.210762
+Private room,Sant Martí,78,5.0,1,1.0,30.0,41.409102000000004,2.184717
+Private room,Sant Martí,5,5.0,2,1.0,29.0,41.412605,2.192686
+Private room,Sant Martí,11,4.5,2,1.0,27.0,41.415783000000005,2.212733
+Private room,Eixample,22,4.5,1,1.0,24.0,41.401434,2.178571
+Private room,Sant Martí,18,4.0,2,1.0,35.0,41.413568,2.218603
+Private room,Sant Martí,7,4.5,1,1.0,36.0,41.397301,2.195466
+Private room,Sant Martí,34,4.5,1,1.0,28.0,41.416507,2.211711
+Private room,Sant Martí,40,4.0,2,1.0,35.0,41.407286,2.204012
+Private room,Sant Martí,44,4.5,2,1.0,38.0,41.412349,2.198163
+Private room,Sant Martí,15,4.5,2,1.0,30.0,41.415702,2.214769
+Private room,Sant Martí,110,4.0,2,1.0,12.0,41.415254,2.213019
+Private room,Sant Martí,7,4.5,2,1.0,36.0,41.41332,2.214293
+Private room,Sant Martí,41,4.5,1,0.0,30.0,41.392993,2.187934
+Private room,Sant Martí,76,4.5,3,1.0,31.0,41.419742,2.199242
+Private room,Sant Martí,50,5.0,1,1.0,41.0,41.413132,2.213005
+Private room,Sant Martí,29,4.5,2,1.0,36.0,41.400459000000005,2.2046419999999998
+Private room,Sant Martí,25,4.0,2,1.0,32.0,41.405776,2.203233
+Private room,Sant Martí,5,5.0,2,1.0,41.0,41.411659,2.205711
+Private room,Sant Martí,16,5.0,2,1.0,34.0,41.403025,2.206645
+Private room,Sant Martí,58,4.5,1,1.0,25.0,41.406565,2.1901450000000002
+Private room,Sant Martí,55,4.5,2,1.0,36.0,41.413171999999996,2.213886
+Private room,Sant Martí,109,4.0,2,1.0,32.0,41.406934,2.209655
+Private room,Sant Martí,12,5.0,1,1.0,30.0,41.415544,2.2035270000000002
+Private room,Sant Martí,12,4.0,2,1.0,29.0,41.415553,2.213637
+Private room,Sant Martí,16,4.5,1,1.0,36.0,41.398497,2.2011849999999997
+Private room,Sant Martí,50,4.5,2,1.0,34.0,41.408766,2.211137
+Private room,Sant Martí,31,4.5,2,1.0,23.0,41.391974,2.18855
+Private room,Sant Martí,14,4.0,2,1.0,32.0,41.409351,2.195063
+Private room,Sant Martí,67,4.5,1,1.0,23.0,41.405696,2.189062
+Private room,Sant Martí,23,4.5,2,1.0,23.0,41.406826,2.19823
+Private room,Sant Martí,7,4.5,2,1.0,36.0,41.418363,2.213811
+Private room,Sant Martí,57,4.5,4,1.0,27.0,41.396417,2.197496
+Private room,Sant Martí,62,4.5,1,1.0,24.0,41.39816,2.203953
+Private room,Eixample,130,4.5,2,1.0,32.0,41.396683,2.184268
+Private room,Sant Martí,24,5.0,1,1.0,28.0,41.402134999999994,2.204269
+Private room,Sant Martí,21,5.0,1,1.0,36.0,41.414660999999995,2.2158729999999998
+Private room,Sant Martí,15,4.5,1,1.0,34.0,41.416471,2.216345
+Private room,Nou Barris,6,5.0,1,1.0,24.0,41.432857,2.176111
+Private room,Horta-Guinardó,15,5.0,2,1.0,20.0,41.428032,2.15468
+Private room,Nou Barris,17,5.0,1,1.0,36.0,41.459724,2.177033
+Private room,Horta-Guinardó,15,5.0,1,1.0,16.0,41.426922999999995,2.1564400000000004
+Private room,Horta-Guinardó,4,4.5,2,1.0,32.0,41.423882,2.176963
+Private room,Horta-Guinardó,12,4.5,2,1.0,25.0,41.425465,2.142745
+Private room,Horta-Guinardó,64,5.0,2,1.0,39.0,41.42239,2.175391
+Private room,Horta-Guinardó,13,4.5,2,1.0,25.0,41.425669,2.173241
+Private room,Horta-Guinardó,3,4.5,2,1.0,24.0,41.424065999999996,2.176432
+Private room,Sant Andreu,21,4.5,2,1.0,24.0,41.425482,2.187459
+Private room,Horta-Guinardó,5,5.0,2,1.0,36.0,41.423926,2.150957
+Private room,Horta-Guinardó,15,4.0,1,1.0,28.0,41.423638000000004,2.156547
+Private room,Nou Barris,3,5.0,1,1.0,36.0,41.430948,2.173893
+Private room,Nou Barris,4,5.0,1,1.0,22.0,41.447356,2.173186
+Private room,Horta-Guinardó,5,4.5,2,1.0,36.0,41.423146,2.176348
+Private room,Nou Barris,4,4.5,2,1.0,36.0,41.446096000000004,2.175302
+Private room,Eixample,7,5.0,1,1.0,31.0,41.394673,2.1782
+Private room,Eixample,79,5.0,2,1.0,41.0,41.405359999999995,2.177827
+Private room,Sant Martí,38,5.0,1,1.0,36.0,41.397504999999995,2.191341
+Private room,Sant Martí,49,5.0,2,1.0,36.0,41.402479,2.2029389999999998
+Private room,Sant Martí,5,5.0,1,1.0,24.0,41.420293,2.205545
+Private room,Sant Andreu,7,4.5,1,1.0,36.0,41.417466,2.190873
+Private room,Eixample,28,4.5,2,1.0,36.0,41.397977000000004,2.185445
+Private room,Eixample,9,4.5,1,1.0,36.0,41.397188,2.184141
+Private room,Sant Martí,29,4.5,2,1.0,36.0,41.407696,2.190444
+Private room,Sant Martí,14,4.0,1,1.0,27.0,41.406452,2.190003
+Private room,Sant Martí,66,5.0,2,1.0,39.0,41.410934000000005,2.1865099999999997
+Private room,Sant Martí,51,4.5,2,1.0,36.0,41.400156,2.203986
+Private room,Sant Martí,189,4.5,2,1.0,30.0,41.405694,2.192757
+Private room,Sant Martí,31,4.5,2,1.0,18.0,41.409126,2.197117
+Private room,Ciutat Vella,65,4.0,2,1.0,36.0,41.387370000000004,2.173404
+Private room,Ciutat Vella,4,5.0,2,1.0,24.0,41.38377,2.178758
+Private room,Ciutat Vella,3,4.5,3,1.0,35.0,41.384007000000004,2.16701
+Private room,Eixample,204,5.0,2,1.0,30.0,41.387143,2.166287
+Private room,Ciutat Vella,93,4.0,2,1.0,27.0,41.386356,2.172381
+Private room,Eixample,80,4.5,2,1.0,35.0,41.407133,2.1803060000000003
+Private room,Sant Martí,24,4.5,2,1.0,36.0,41.395731,2.191364
+Private room,Ciutat Vella,76,4.5,2,1.0,36.0,41.387732,2.17501
+Private room,Eixample,69,4.5,1,1.0,38.0,41.397664,2.17156
+Private room,Ciutat Vella,35,4.5,2,1.0,22.0,41.385199,2.170084
+Private room,Eixample,29,4.5,2,1.0,22.0,41.386138,2.167096
+Private room,Sant Martí,24,4.5,3,1.0,38.0,41.406504999999996,2.20282
+Private room,Sant Martí,17,4.5,1,1.0,36.0,41.404639,2.204617
+Private room,Sant Martí,13,4.5,1,1.0,36.0,41.402138,2.197653
+Private room,Sant Martí,37,5.0,1,1.0,38.0,41.413874,2.2135740000000004
+Private room,Sant Martí,69,4.5,2,1.0,36.0,41.407715,2.197483
+Private room,Sant Martí,48,4.5,2,1.0,36.0,41.40661,2.1971060000000002
+Private room,Ciutat Vella,24,4.5,2,1.0,38.0,41.383590999999996,2.172684
+Private room,Sant Martí,12,4.5,1,1.0,28.0,41.39183,2.190451
+Private room,Ciutat Vella,8,4.5,1,1.0,36.0,41.384723,2.183923
+Private room,Ciutat Vella,37,5.0,3,1.0,36.0,41.381687,2.171681
+Private room,Ciutat Vella,117,4.0,2,1.0,30.0,41.385905,2.174096
+Private room,Ciutat Vella,3,4.5,2,1.0,30.0,41.382319,2.176312
+Private room,Ciutat Vella,137,4.5,2,1.0,36.0,41.386213,2.172372
+Private room,Ciutat Vella,143,4.0,2,1.0,36.0,41.386328999999996,2.1741770000000002
+Private room,Ciutat Vella,8,4.0,2,1.0,41.0,41.379436,2.177322
+Private room,Ciutat Vella,5,5.0,2,1.0,36.0,41.382475,2.176902
+Private room,Ciutat Vella,27,4.5,2,1.0,30.0,41.378444,2.1779889999999997
+Private room,Ciutat Vella,28,5.0,2,1.0,15.0,41.378824,2.173492
+Private room,Ciutat Vella,149,4.5,1,1.0,39.0,41.379253999999996,2.176873
+Private room,Ciutat Vella,67,4.5,2,1.0,30.0,41.375189,2.170704
+Private room,Ciutat Vella,15,4.5,1,1.0,18.0,41.385903000000006,2.182275
+Private room,Ciutat Vella,56,4.5,1,1.0,16.0,41.375493,2.173526
+Private room,Ciutat Vella,98,4.0,1,1.0,22.0,41.385763,2.180686
+Private room,Ciutat Vella,53,4.5,2,1.0,30.0,41.375975,2.175632
+Private room,Ciutat Vella,138,4.5,2,1.0,38.0,41.384434000000006,2.1797299999999997
+Private room,Ciutat Vella,116,4.5,2,1.0,30.0,41.38617,2.1738180000000003
+Private room,Ciutat Vella,32,4.5,2,1.0,30.0,41.380567,2.176987
+Private room,Ciutat Vella,15,4.0,2,1.0,36.0,41.379342,2.170639
+Private room,Horta-Guinardó,13,5.0,1,1.0,24.0,41.41287,2.163571
+Private room,Gràcia,22,4.5,1,1.0,30.0,41.408232,2.161429
+Private room,Horta-Guinardó,24,4.5,2,1.0,30.0,41.414608,2.161251
+Private room,Gràcia,54,4.5,2,1.0,30.0,41.407728000000006,2.16133
+Private room,Gràcia,5,4.5,2,1.0,27.0,41.40638,2.1687
+Private room,Gràcia,14,5.0,1,1.0,30.0,41.409077,2.159726
+Private room,Eixample,3,4.5,2,1.0,36.0,41.407969,2.171541
+Private room,Gràcia,3,5.0,2,1.0,29.0,41.405645,2.161536
+Private room,Gràcia,3,4.5,1,1.0,35.0,41.405881,2.159842
+Private room,Gràcia,13,5.0,1,1.0,25.0,41.407702,2.162359
+Private room,Gràcia,7,5.0,2,1.0,35.0,41.407133,2.166189
+Private room,Gràcia,5,4.5,2,1.0,30.0,41.407214,2.163602
+Private room,Eixample,62,4.5,1,1.0,34.0,41.405414,2.172971
+Private room,Gràcia,15,4.5,2,1.0,30.0,41.405625,2.161895
+Private room,Eixample,21,5.0,1,1.0,34.0,41.40618,2.1718439999999997
+Private room,Gràcia,14,4.5,1,1.0,24.0,41.407595,2.165898
+Private room,Gràcia,21,4.5,1,1.0,32.0,41.411648,2.160411
+Private room,Gràcia,8,4.5,1,1.0,29.0,41.412524,2.159475
+Private room,Gràcia,4,5.0,2,1.0,36.0,41.410995,2.160021
+Private room,Horta-Guinardó,10,4.5,2,1.0,36.0,41.411969,2.172627
+Private room,Horta-Guinardó,6,5.0,2,1.0,38.0,41.407317,2.169003
+Private room,Eixample,32,5.0,2,1.0,36.0,41.406878999999996,2.176141
+Private room,Gràcia,15,5.0,2,1.0,36.0,41.407247,2.16708
+Private room,Gràcia,3,4.5,1,1.0,23.0,41.412649,2.161349
+Private room,Eixample,10,4.5,2,1.0,28.0,41.409261,2.173616
+Private room,Gràcia,37,4.5,2,1.0,27.0,41.412032,2.159828
+Private room,Horta-Guinardó,58,4.5,2,1.0,24.0,41.413986,2.163066
+Private room,Horta-Guinardó,5,5.0,1,1.0,24.0,41.420049,2.179039
+Private room,Eixample,21,4.5,2,1.0,36.0,41.406575,2.175494
+Private room,Eixample,157,4.0,2,1.0,39.0,41.40615,2.180843
+Private room,Sant Martí,5,5.0,2,1.0,41.0,41.407669,2.182699
+Private room,Eixample,6,4.5,1,1.0,30.0,41.406258,2.172275
+Private room,Eixample,7,4.5,2,1.0,41.0,41.406064,2.1798290000000002
+Private room,Sant Martí,40,5.0,2,1.0,30.0,41.411714,2.179868
+Private room,Sant Martí,6,4.5,1,1.0,36.0,41.410118,2.187379
+Private room,Eixample,16,5.0,1,1.0,27.0,41.407810999999995,2.175207
+Private room,Eixample,8,4.5,2,1.0,30.0,41.406052,2.1803470000000003
+Private room,Sant Martí,9,5.0,2,1.0,36.0,41.406603000000004,2.188863
+Private room,Sant Martí,10,5.0,3,1.0,36.0,41.405603,2.188026
+Private room,Sant Martí,33,5.0,2,1.0,35.0,41.407891,2.181238
+Private room,Eixample,3,5.0,2,1.0,30.0,41.405834000000006,2.176893
+Private room,Sant Andreu,30,5.0,2,1.0,36.0,41.420576000000004,2.182024
+Private room,Sant Martí,16,4.5,2,1.0,41.0,41.410287,2.185791
+Private room,Eixample,65,4.0,2,1.0,38.0,41.407784,2.179426
+Private room,Sant Andreu,10,4.0,2,1.0,41.0,41.418642999999996,2.189495
+Private room,Eixample,91,5.0,3,1.0,41.0,41.407506,2.178889
+Private room,Sant Andreu,5,5.0,1,1.0,39.0,41.421633,2.184695
+Private room,Eixample,25,4.5,1,1.0,35.0,41.405993,2.174274
+Private room,Eixample,3,5.0,1,1.0,24.0,41.407576,2.178226
+Private room,Sant Martí,88,5.0,2,1.0,41.0,41.407819,2.184541
+Private room,Sant Martí,5,4.5,1,1.0,35.0,41.40697,2.184899
+Private room,Eixample,70,4.5,1,1.0,29.0,41.405889,2.178511
+Private room,Eixample,4,4.0,2,1.0,35.0,41.407262,2.176992
+Private room,Horta-Guinardó,8,5.0,1,1.0,36.0,41.416117,2.1800669999999998
+Private room,Eixample,12,5.0,1,1.0,30.0,41.407632,2.177832
+Private room,Eixample,15,5.0,1,1.0,25.0,41.41035,2.177394
+Private room,Horta-Guinardó,45,4.0,2,1.0,30.0,41.428377000000005,2.161156
+Private room,Horta-Guinardó,25,5.0,1,1.0,24.0,41.419062,2.173058
+Private room,Horta-Guinardó,17,4.0,3,1.0,36.0,41.412478,2.1654880000000003
+Private room,Sant Martí,44,5.0,1,1.0,37.0,41.407951000000004,2.1831419999999997
+Private room,Nou Barris,67,4.5,2,1.0,32.0,41.431394,2.1789970000000003
+Private room,Gràcia,6,4.0,1,1.0,34.0,41.409669,2.164373
+Private room,Horta-Guinardó,46,4.0,2,1.0,24.0,41.412525,2.170774
+Private room,Eixample,39,5.0,2,1.0,34.0,41.40905,2.177996
+Private room,Sant Martí,11,4.5,2,1.0,24.0,41.412555,2.181694
+Private room,Horta-Guinardó,14,4.0,1,1.0,10.0,41.411899,2.175019
+Private room,Horta-Guinardó,19,4.5,1,1.0,24.0,41.408223,2.167479
+Private room,Sant Martí,4,4.5,2,1.0,36.0,41.412582,2.177166
+Private room,Sant Martí,14,5.0,1,1.0,29.0,41.411565,2.181969
+Private room,Horta-Guinardó,9,5.0,1,1.0,18.0,41.416239000000004,2.162053
+Private room,Horta-Guinardó,7,5.0,2,1.0,29.0,41.408709,2.166963
+Private room,Eixample,25,4.5,1,1.0,20.0,41.408207,2.173723
+Private room,Horta-Guinardó,9,4.0,2,1.0,34.0,41.410866,2.1716759999999997
+Private room,Eixample,10,5.0,1,1.0,25.0,41.409852,2.17739
+Private room,Eixample,10,5.0,1,1.0,24.0,41.408351,2.17639
+Private room,Eixample,9,5.0,1,1.0,32.0,41.409034000000005,2.176956
+Private room,Gràcia,5,4.5,1,1.0,35.0,41.409147999999995,2.16315
+Private room,Horta-Guinardó,3,4.5,2,1.0,32.0,41.417213000000004,2.170834
+Private room,Horta-Guinardó,52,4.0,2,1.0,18.0,41.414478,2.178022
+Private room,Horta-Guinardó,4,5.0,1,1.0,22.0,41.412585,2.166211
+Private room,Eixample,6,5.0,2,1.0,38.0,41.411633,2.175113
+Private room,Horta-Guinardó,26,5.0,2,1.0,36.0,41.412068,2.172315
+Private room,Sant Martí,11,4.5,1,1.0,36.0,41.411744,2.178741
+Private room,Horta-Guinardó,7,4.5,2,1.0,30.0,41.411809999999996,2.16929
+Private room,Eixample,41,4.5,1,1.0,18.0,41.409721999999995,2.172774
+Private room,Sant Martí,28,5.0,2,1.0,24.0,41.413467,2.179281
+Private room,Horta-Guinardó,13,4.5,1,1.0,32.0,41.409781,2.171208
+Private room,Horta-Guinardó,6,5.0,1,1.0,24.0,41.409743,2.170039
+Private room,Horta-Guinardó,15,5.0,2,1.0,36.0,41.411509,2.1732110000000002
+Private room,Sant Martí,55,4.0,3,1.0,35.0,41.412467,2.177634
+Private room,Eixample,6,4.0,2,1.0,30.0,41.411081,2.175565
+Private room,Horta-Guinardó,5,4.5,2,1.0,20.0,41.412546,2.1735919999999997
+Private room,Horta-Guinardó,68,4.5,1,1.0,20.0,41.415238,2.179224
+Private room,Horta-Guinardó,5,5.0,1,1.0,30.0,41.413470000000004,2.165277
+Private room,Horta-Guinardó,56,4.0,2,1.0,16.0,41.415040000000005,2.177772
+Private room,Horta-Guinardó,71,4.5,2,1.0,38.0,41.410957,2.1677720000000003
+Private room,Horta-Guinardó,21,4.5,2,1.0,36.0,41.426137,2.1723369999999997
+Private room,Horta-Guinardó,3,5.0,2,1.0,32.0,41.43744,2.1579189999999997
+Private room,Nou Barris,37,4.5,2,1.0,25.0,41.434015,2.168878
+Private room,Horta-Guinardó,25,4.5,1,1.0,23.0,41.424102000000005,2.173926
+Private room,Nou Barris,5,5.0,2,1.0,28.0,41.436048,2.175783
+Private room,Horta-Guinardó,12,5.0,2,1.0,36.0,41.422195,2.150048
+Private room,Horta-Guinardó,5,5.0,1,1.0,32.0,41.423707,2.1520099999999998
+Private room,Horta-Guinardó,95,5.0,1,1.0,24.0,41.438459,2.155596
+Private room,Nou Barris,3,5.0,1,1.0,25.0,41.427991999999996,2.1712580000000004
+Private room,Nou Barris,10,4.5,1,1.0,30.0,41.4472,2.17387
+Private room,Nou Barris,15,4.5,2,1.0,39.0,41.431556,2.1669419999999997
+Private room,Horta-Guinardó,5,4.5,2,1.0,36.0,41.436541,2.159936
+Private room,Horta-Guinardó,20,4.5,2,1.0,27.0,41.425351,2.1392599999999997
+Private room,Horta-Guinardó,8,4.5,1,1.0,30.0,41.426714000000004,2.166705
+Private room,Horta-Guinardó,13,4.5,2,1.0,18.0,41.422117,2.173419
+Private room,Nou Barris,19,4.5,2,1.0,36.0,41.427508,2.173327
+Private room,Horta-Guinardó,10,4.5,2,1.0,30.0,41.432087,2.1487939999999996
+Private room,Horta-Guinardó,8,4.5,2,1.0,27.0,41.424191,2.157107
+Private room,Nou Barris,23,4.5,2,1.0,38.0,41.436006,2.1750540000000003
+Private room,Horta-Guinardó,34,4.5,1,1.0,36.0,41.433012,2.146978
+Private room,Nou Barris,16,4.5,1,1.0,24.0,41.427495,2.172357
+Private room,Nou Barris,6,4.0,2,1.0,36.0,41.440813,2.17466
+Private room,Nou Barris,9,5.0,1,1.0,21.0,41.429596000000004,2.166214
+Private room,Horta-Guinardó,52,4.5,1,1.0,30.0,41.422503000000006,2.150229
+Private room,Nou Barris,6,5.0,1,1.0,27.0,41.430139000000004,2.166511
+Private room,Horta-Guinardó,39,4.5,2,1.0,36.0,41.435607,2.159924
+Private room,Nou Barris,42,4.5,1,2.0,38.0,41.440389,2.177069
+Private room,Horta-Guinardó,18,5.0,1,1.0,29.0,41.425084000000005,2.158893
+Private room,Nou Barris,3,5.0,2,1.0,36.0,41.431321999999994,2.167175
+Private room,Horta-Guinardó,5,4.5,2,1.0,36.0,41.430969,2.15912
+Private room,Sant Andreu,26,4.5,1,1.0,22.0,41.4242,2.187592
+Private room,Sant Andreu,5,5.0,1,1.0,24.0,41.439648999999996,2.187211
+Private room,Nou Barris,4,5.0,2,1.0,36.0,41.463341,2.18097
+Private room,Sant Andreu,16,5.0,1,1.0,23.0,41.422977,2.1844509999999997
+Private room,Sant Andreu,156,5.0,1,1.0,36.0,41.423735,2.187782
+Private room,Sant Andreu,6,3.0,2,1.0,35.0,41.444852000000004,2.20372
+Private room,Nou Barris,20,4.5,2,1.0,23.0,41.461478,2.1792580000000004
+Private room,Sant Andreu,164,4.5,2,1.0,32.0,41.422387,2.189135
+Private room,Sant Andreu,27,4.0,1,1.0,22.0,41.436654,2.185147
+Private room,Nou Barris,27,5.0,1,1.0,21.0,41.463333,2.178114
+Private room,Sant Martí,5,4.0,2,1.0,36.0,41.423533,2.201501
+Private room,Sant Andreu,27,4.5,1,1.0,20.0,41.429516,2.1906380000000003
+Private room,Nou Barris,53,4.5,2,1.0,28.0,41.442568,2.182636
+Private room,Nou Barris,15,4.5,2,1.0,35.0,41.449073999999996,2.185675
+Private room,Horta-Guinardó,75,4.0,2,1.0,31.0,41.418042,2.1713009999999997
+Private room,Sant Martí,12,5.0,1,1.0,29.0,41.410189,2.181496
+Private room,Eixample,67,4.5,2,1.0,30.0,41.380686,2.156822
+Private room,Gràcia,125,5.0,2,1.0,36.0,41.408984000000004,2.1653830000000003
+Private room,Nou Barris,65,4.5,4,1.0,30.0,41.429497,2.1815580000000003
+Private room,Eixample,108,4.5,1,4.0,31.0,41.390584000000004,2.151897
+Private room,Eixample,130,4.5,2,1.0,34.0,41.407928999999996,2.1745400000000004
+Private room,Sarrià-Sant Gervasi,168,4.5,1,1.0,23.0,41.395764,2.146878
+Private room,Sant Martí,11,4.0,1,1.0,34.0,41.41303,2.180444
+Private room,Eixample,40,5.0,2,1.0,34.0,41.406432,2.1699759999999997
+Private room,Gràcia,5,5.0,4,1.0,30.0,41.401586,2.164549
+Private room,Eixample,35,3.5,3,1.0,36.0,41.402912,2.170428
+Private room,Eixample,56,4.5,1,1.0,27.0,41.405976,2.171935
+Private room,Horta-Guinardó,41,4.0,1,1.0,30.0,41.419038,2.171982
+Private room,Gràcia,3,4.0,2,1.0,24.0,41.400743,2.1602810000000003
+Private room,Sant Andreu,42,4.5,2,1.0,23.0,41.418641,2.186252
+Private room,Sant Martí,43,4.5,2,1.0,30.0,41.394284999999996,2.19761
+Private room,Sant Martí,58,4.5,2,1.0,30.0,41.414567,2.1949669999999997
+Private room,Eixample,32,5.0,1,1.0,23.0,41.405421000000004,2.17877
+Private room,Nou Barris,26,4.0,2,1.0,32.0,41.430725,2.174316
+Private room,Sant Martí,137,5.0,1,1.0,36.0,41.402374,2.202187
+Private room,Eixample,25,4.5,2,1.0,22.0,41.401794,2.179009
+Private room,Sant Andreu,56,4.5,1,1.0,24.0,41.436985,2.1857759999999997
+Private room,Sant Martí,27,4.5,1,1.0,22.0,41.414032,2.17814
+Private room,Horta-Guinardó,61,4.5,2,1.0,36.0,41.418465000000005,2.156545
+Private room,Eixample,108,4.5,2,1.0,36.0,41.405557,2.173971
+Private room,Eixample,30,5.0,1,1.0,24.0,41.400401,2.181962
+Private room,Gràcia,34,4.0,2,1.0,30.0,41.406727000000004,2.1506979999999998
+Private room,Sant Martí,22,4.0,2,1.0,30.0,41.404282,2.1984470000000003
+Private room,Sant Martí,55,4.5,2,1.0,34.0,41.419013,2.2011220000000002
+Private room,Sant Andreu,40,4.5,2,1.0,32.0,41.424853999999996,2.185885
+Private room,Ciutat Vella,97,4.0,1,1.0,22.0,41.386187,2.177286
+Private room,Nou Barris,14,4.5,2,1.0,23.0,41.442428,2.177682
+Private room,Sant Martí,29,4.5,1,1.0,28.0,41.391690999999994,2.1895849999999997
+Private room,Nou Barris,18,4.0,1,1.0,23.0,41.461051,2.1760919999999997
+Private room,Horta-Guinardó,136,4.5,3,1.0,29.0,41.419659,2.176149
+Private room,Sant Martí,6,4.0,2,1.0,36.0,41.410659,2.1864939999999997
+Private room,Sant Martí,59,5.0,1,1.0,10.0,41.402179,2.203466
+Private room,Nou Barris,6,3.5,2,1.0,32.0,41.430533000000004,2.168056
+Private room,Eixample,23,5.0,1,1.0,36.0,41.406117,2.169833
+Private room,Sant Andreu,35,4.5,2,1.0,32.0,41.423695,2.185808
+Private room,Horta-Guinardó,6,5.0,1,1.0,34.0,41.408924,2.167765
+Private room,Eixample,55,4.0,2,1.0,31.0,41.401431,2.180786
+Private room,Sant Martí,7,5.0,1,1.0,34.0,41.403772,2.20226
+Private room,Sant Martí,23,4.5,2,1.0,23.0,41.391104999999996,2.187784
+Private room,Sant Martí,21,5.0,2,1.0,31.0,41.406676000000004,2.185704
+Private room,Sant Andreu,33,4.5,2,1.0,35.0,41.42067,2.189756
+Private room,Horta-Guinardó,26,5.0,2,1.0,24.0,41.419057,2.1792979999999997
+Private room,Nou Barris,31,4.5,1,1.0,18.0,41.442752,2.175325
+Private room,Sant Andreu,3,4.0,1,0.0,30.0,41.422854,2.181676
+Private room,Gràcia,135,5.0,2,1.0,24.0,41.410812,2.150245
+Private room,Gràcia,57,4.5,2,1.0,27.0,41.405322,2.168814
+Private room,Gràcia,26,4.5,2,1.0,34.0,41.405254,2.160266
+Private room,Eixample,10,4.5,3,1.0,36.0,41.402829,2.172677
+Private room,Eixample,18,4.0,2,1.0,23.0,41.4001,2.177552
+Private room,Eixample,11,5.0,1,1.0,37.0,41.397129,2.176479
+Private room,Gràcia,25,5.0,1,1.0,24.0,41.407246,2.159725
+Private room,Horta-Guinardó,25,5.0,2,1.0,36.0,41.418188,2.173712
+Private room,Eixample,21,5.0,1,1.0,18.0,41.409783000000004,2.175332
+Private room,Eixample,4,5.0,1,1.0,36.0,41.409211,2.1733029999999998
+Private room,Eixample,122,4.5,3,1.0,38.0,41.401676,2.183461
+Private room,Gràcia,12,5.0,3,2.0,35.0,41.404189,2.166321
+Private room,Gràcia,49,4.5,1,1.0,30.0,41.399998,2.16264
+Private room,Eixample,38,4.5,2,1.0,24.0,41.400475,2.169849
+Private room,Sant Martí,71,5.0,1,1.0,36.0,41.402069,2.203125
+Private room,Nou Barris,18,5.0,2,1.0,34.0,41.435332,2.169304
+Private room,Sant Andreu,3,4.5,1,1.0,30.0,41.419812,2.187921
+Private room,Nou Barris,8,5.0,2,1.0,36.0,41.433293,2.174914
+Private room,Horta-Guinardó,79,4.5,1,1.0,30.0,41.419548999999996,2.170966
+Private room,Horta-Guinardó,4,5.0,1,1.0,22.0,41.425608000000004,2.174346
+Private room,Sant Andreu,7,5.0,2,1.0,36.0,41.425693,2.185966
+Private room,Sant Andreu,16,4.5,2,1.0,36.0,41.419689,2.186391
+Private room,Sant Andreu,46,4.5,2,1.0,39.0,41.421079999999996,2.187652
+Private room,Nou Barris,36,4.0,2,1.0,31.0,41.431715000000004,2.1744779999999997
+Private room,Nou Barris,9,5.0,1,1.0,28.0,41.448257,2.177028
+Private room,Sant Andreu,3,4.5,1,1.0,24.0,41.421465999999995,2.180739
+Private room,Horta-Guinardó,13,5.0,1,1.0,21.0,41.423933,2.17655
+Private room,Nou Barris,3,5.0,1,1.0,23.0,41.442299,2.1762040000000002
+Private room,Nou Barris,25,4.0,2,1.0,36.0,41.427459000000006,2.173425
+Private room,Nou Barris,22,4.5,4,1.0,31.0,41.429497,2.181204
+Private room,Sant Andreu,99,4.0,2,1.0,25.0,41.440976,2.18692
+Private room,Sant Martí,6,4.5,1,3.0,25.0,41.42071,2.207135
+Private room,Sant Martí,7,4.5,2,1.0,37.0,41.421119,2.200848
+Private room,Sant Martí,5,4.0,1,1.0,24.0,41.423367999999996,2.198892
+Private room,Sant Martí,4,5.0,2,1.0,30.0,41.423563,2.208286
+Private room,Sant Martí,16,5.0,1,1.0,36.0,41.420862,2.206298
+Private room,Sant Andreu,21,5.0,1,1.0,39.0,41.44226,2.194307
+Private room,Nou Barris,17,4.5,2,1.0,35.0,41.447736,2.184549
+Private room,Eixample,44,5.0,1,1.0,16.0,41.39887,2.1799
+Private room,Eixample,20,5.0,1,1.0,32.0,41.410785,2.1755150000000003
+Private room,Eixample,10,5.0,2,1.0,30.0,41.404499,2.173708
+Private room,Eixample,20,4.5,2,1.0,21.0,41.408997,2.174211
+Private room,Sant Andreu,17,4.5,2,1.0,34.0,41.419635,2.187795
+Private room,Sant Martí,10,4.5,2,1.0,25.0,41.414017,2.180844
+Private room,Sant Andreu,15,4.0,2,1.0,31.0,41.418357,2.18892
+Private room,Sant Martí,33,4.5,1,1.0,35.0,41.405997,2.1861580000000003
+Private room,Sant Martí,41,4.5,1,1.0,41.0,41.4111,2.185595
+Private room,Eixample,80,4.5,2,1.0,35.0,41.401816,2.17708
+Private room,Sant Andreu,18,4.5,1,1.0,36.0,41.416218,2.190091
+Private room,Sant Andreu,5,5.0,1,1.0,36.0,41.420553000000005,2.18397
+Private room,Sant Martí,22,5.0,1,1.0,32.0,41.414448,2.203239
+Private room,Sant Martí,23,4.5,1,1.0,39.0,41.416774,2.198635
+Private room,Eixample,36,4.5,2,1.0,24.0,41.405789,2.174141
+Private room,Eixample,16,4.5,2,1.0,35.0,41.403562,2.177516
+Private room,Eixample,22,4.5,1,1.0,25.0,41.399709,2.171896
+Private room,Sant Martí,28,4.5,1,1.0,30.0,41.410821,2.1864
+Private room,Sant Andreu,11,4.0,2,1.0,30.0,41.418534,2.185623
+Private room,Sant Andreu,6,4.5,1,1.0,36.0,41.418958,2.180869
+Private room,Horta-Guinardó,22,4.5,2,1.0,31.0,41.419758,2.1751270000000003
+Private room,Sant Andreu,12,4.5,2,1.0,36.0,41.417339,2.184973
+Private room,Sant Martí,75,4.5,2,1.0,18.0,41.411957,2.1937919999999997
+Private room,Sant Martí,35,4.5,2,1.0,36.0,41.411536,2.200159
+Private room,Sant Martí,48,4.5,2,1.0,34.0,41.416022,2.1841009999999996
+Private room,Sant Andreu,6,5.0,1,1.0,36.0,41.421183,2.181317
+Private room,Eixample,10,5.0,1,1.0,30.0,41.405861,2.171088
+Private room,Sant Andreu,25,4.5,2,1.0,37.0,41.420603,2.189125
+Private room,Horta-Guinardó,96,4.5,2,1.0,24.0,41.419853,2.1749169999999998
+Private room,Eixample,114,4.5,1,1.0,30.0,41.407486999999996,2.1771700000000003
+Private room,Sant Martí,87,4.0,2,1.0,18.0,41.412228999999996,2.195376
+Private room,Horta-Guinardó,98,4.0,2,1.0,24.0,41.418986,2.177791
+Private room,Sant Martí,42,5.0,2,1.0,36.0,41.413414,2.19043
+Private room,Sant Martí,29,4.5,1,1.0,21.0,41.41438,2.21828
+Private room,Sant Martí,8,4.5,2,1.0,21.0,41.421653000000006,2.2001020000000002
+Private room,Sant Martí,71,4.0,2,1.0,24.0,41.411565,2.195375
+Private room,Sant Martí,72,4.0,4,1.0,18.0,41.413965000000005,2.189975
+Private room,Horta-Guinardó,108,4.5,4,1.0,22.0,41.420037,2.175508
+Private room,Eixample,340,4.5,1,1.0,21.0,41.407882,2.173106
+Private room,Sant Martí,24,4.0,1,1.0,29.0,41.417365000000004,2.196198
+Private room,Sant Martí,84,4.0,2,1.0,18.0,41.414219,2.191916
+Private room,Horta-Guinardó,18,5.0,1,1.0,21.0,41.415584,2.1775900000000004
+Private room,Sant Martí,80,4.5,2,1.0,36.0,41.415748,2.1943490000000003
+Private room,Sant Martí,8,5.0,1,1.0,30.0,41.414099,2.214393
+Private room,Sant Martí,9,5.0,1,1.0,30.0,41.412345,2.216948
+Private room,Sant Martí,4,3.5,2,1.0,24.0,41.417879,2.21513
+Private room,Sant Martí,3,4.5,2,1.0,28.0,41.417514000000004,2.2146689999999998
+Private room,Sant Martí,31,5.0,1,1.0,23.0,41.416175,2.218139
+Private room,Sant Martí,18,5.0,2,1.0,36.0,41.412541999999995,2.217038
+Private room,Sant Martí,19,4.5,1,1.0,27.0,41.414953000000004,2.215147
+Private room,Sant Martí,30,4.5,1,1.0,30.0,41.402590999999994,2.208716
+Private room,Sant Martí,26,5.0,2,1.0,41.0,41.408731,2.211609
+Private room,Sant Martí,10,3.5,2,1.0,36.0,41.413333,2.215411
+Private room,Sant Martí,11,5.0,1,1.0,39.0,41.409071000000004,2.209034
+Private room,Sant Martí,9,3.5,2,1.0,20.0,41.418477,2.214336
+Private room,Sant Martí,10,5.0,2,1.0,29.0,41.421654,2.209536
+Private room,Sant Martí,16,4.5,2,1.0,30.0,41.413138000000004,2.2168509999999997
+Private room,Sant Martí,6,4.0,2,1.0,18.0,41.419933,2.211975
+Private room,Sant Martí,57,4.0,3,1.0,12.0,41.415893,2.215232
+Private room,Sant Martí,111,4.5,2,1.0,21.0,41.415768,2.2133119999999997
+Private room,Sant Martí,4,4.5,1,1.0,38.0,41.40548,2.184791
+Private room,Sant Martí,6,3.5,2,1.0,36.0,41.414739000000004,2.2138970000000002
+Private room,Eixample,12,5.0,2,1.0,34.0,41.406054,2.178745
+Private room,Ciutat Vella,33,4.5,2,1.0,36.0,41.379756,2.191664
+Private room,Eixample,69,5.0,1,1.0,30.0,41.394119,2.1800490000000003
+Private room,Ciutat Vella,22,4.5,2,1.0,39.0,41.383167,2.182474
+Private room,Sant Martí,52,4.5,2,1.0,39.0,41.40251,2.201721
+Private room,Sant Martí,38,4.5,2,1.0,30.0,41.417905,2.208197
+Private room,Ciutat Vella,29,4.0,2,1.0,24.0,41.377959999999995,2.1789509999999996
+Private room,Sant Martí,30,4.5,3,3.0,36.0,41.398609,2.204225
+Private room,Sant Martí,6,4.5,2,1.0,28.0,41.412487,2.1911400000000003
+Private room,Ciutat Vella,27,5.0,1,1.0,37.0,41.383722999999996,2.181151
+Private room,Gràcia,18,5.0,1,1.0,28.0,41.40449,2.165428
+Private room,Sant Martí,17,4.5,2,1.0,27.0,41.413801,2.217625
+Private room,Sant Martí,27,4.5,2,1.0,32.0,41.405367,2.185274
+Private room,Sant Martí,4,5.0,1,1.0,30.0,41.403008,2.201759
+Private room,Nou Barris,24,5.0,1,1.0,34.0,41.436582,2.171333
+Private room,Sant Andreu,40,5.0,3,1.0,30.0,41.416565000000006,2.188562
+Private room,Sant Martí,24,4.5,2,1.0,35.0,41.417891999999995,2.193827
+Private room,Nou Barris,7,4.5,1,1.0,27.0,41.429501,2.175941
+Private room,Sant Martí,12,4.5,2,1.0,34.0,41.40887,2.196199
+Private room,Eixample,91,5.0,1,1.0,31.0,41.405899,2.175224
+Private room,Horta-Guinardó,12,4.5,1,1.0,27.0,41.412634999999995,2.168679
+Private room,Sant Andreu,3,4.5,1,1.0,36.0,41.419558,2.182055
+Private room,Sant Martí,26,4.5,2,1.0,34.0,41.411691,2.199183
+Private room,Sant Martí,22,5.0,2,1.0,24.0,41.407028000000004,2.189058
+Private room,Sant Andreu,10,4.5,2,1.0,29.0,41.422434,2.181248
+Private room,Sant Andreu,26,5.0,1,1.0,30.0,41.421279,2.183368
+Private room,Sant Martí,50,4.5,1,1.0,24.0,41.412626,2.199638
+Private room,Horta-Guinardó,16,4.5,2,1.0,36.0,41.432303999999995,2.157448
+Private room,Nou Barris,3,4.5,2,1.0,30.0,41.427093,2.17433
+Private room,Nou Barris,25,4.5,1,1.0,22.0,41.436128000000004,2.1810669999999996
+Private room,Nou Barris,16,4.0,2,1.0,31.0,41.429365999999995,2.173213
+Private room,Sant Andreu,3,4.5,1,1.0,23.0,41.422183000000004,2.180682
+Private room,Sant Martí,12,5.0,2,1.0,36.0,41.393559,2.196599
+Private room,Ciutat Vella,24,4.5,2,1.0,22.0,41.381157,2.165363
+Private room,Horta-Guinardó,38,5.0,1,1.0,27.0,41.419602000000005,2.172311
+Private room,Sant Martí,64,4.5,1,1.0,30.0,41.410325,2.189936
+Private room,Eixample,129,4.5,1,1.0,30.0,41.407179,2.1779610000000003
+Private room,Sant Martí,5,5.0,1,1.0,25.0,41.423371,2.199842
+Private room,Sant Martí,7,4.5,1,1.0,27.0,41.391258,2.18377
+Private room,Horta-Guinardó,39,4.0,1,1.0,18.0,41.423182000000004,2.175008
+Private room,Eixample,27,5.0,1,1.0,30.0,41.405665,2.1714330000000004
+Private room,Sant Andreu,5,2.5,2,1.0,36.0,41.422603,2.188745
+Private room,Horta-Guinardó,10,4.5,2,1.0,23.0,41.423227000000004,2.151266
+Private room,Sant Andreu,4,5.0,1,1.0,24.0,41.424591,2.1845950000000003
+Private room,Eixample,123,4.5,1,1.0,22.0,41.398398,2.1856709999999997
+Private room,Sant Andreu,43,4.5,3,1.0,28.0,41.418609000000004,2.186734
+Private room,Nou Barris,28,4.5,1,1.0,27.0,41.42977,2.1778
+Private room,Sant Martí,7,5.0,1,1.0,30.0,41.403321999999996,2.206602
+Private room,Horta-Guinardó,11,5.0,2,1.0,30.0,41.421425,2.145482
+Private room,Sant Martí,98,5.0,2,1.0,32.0,41.414204999999995,2.187263
+Private room,Nou Barris,8,5.0,2,1.0,14.0,41.444016999999995,2.174661
+Private room,Sant Martí,9,5.0,1,1.0,30.0,41.409358000000005,2.1930549999999998
+Private room,Nou Barris,61,5.0,3,2.0,23.0,41.434758,2.179279
+Private room,Sant Andreu,43,4.5,2,1.0,32.0,41.419775,2.189833
+Private room,Gràcia,85,4.0,2,1.0,24.0,41.403307,2.170291
+Private room,Sant Andreu,4,4.5,1,1.0,34.0,41.421262,2.187743
+Private room,Eixample,9,4.5,1,1.0,24.0,41.394828000000004,2.17026
+Private room,Horta-Guinardó,64,4.5,2,1.0,24.0,41.416959999999996,2.178115
+Private room,Sant Martí,68,5.0,1,1.0,21.0,41.419542,2.19896
+Private room,Sant Martí,31,4.5,2,1.0,24.0,41.411039,2.184097
+Private room,Sant Martí,18,4.5,1,1.0,14.0,41.417718,2.214385
+Private room,Sant Martí,14,4.5,2,1.0,27.0,41.415341999999995,2.215337
+Private room,Sant Andreu,16,5.0,2,1.0,30.0,41.442489,2.188289
+Private room,Nou Barris,31,4.5,3,1.0,35.0,41.429237,2.182348
+Private room,Sant Martí,98,4.5,2,1.0,21.0,41.415646,2.211518
+Private room,Horta-Guinardó,5,4.0,1,1.0,23.0,41.418079,2.172586
+Private room,Horta-Guinardó,50,5.0,2,1.0,30.0,41.41668,2.157099
+Private room,Sant Martí,45,4.5,3,1.0,24.0,41.410028999999994,2.197562
+Private room,Sant Andreu,71,5.0,2,1.0,27.0,41.432105,2.1934270000000002
+Private room,Gràcia,33,4.5,2,1.0,23.0,41.412479,2.146101
