@@ -1,4 +1,5 @@
-@relation relation name
+@relation name
+
 @attribute room_type string
 @attribute neighborhood string
 @attribute reviews integer
@@ -8,6 +9,7 @@
 @attribute price real
 @attribute latitude real
 @attribute longitude real
+
 @data
 'Entire home/apt','Sants-Montjuïc',10,4.0,3,1.0,67.0,41.372639,2.156792
 'Private room','Gràcia',5,4.5,1,1.0,32.0,41.400244,2.153811
