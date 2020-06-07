@@ -21,4 +21,4 @@ if __name__ == "__main__":
     pandas_learn, pandas_evaluate = divide(file)
     to_arff(pandas_learn, 'learn.arff')
     to_arff(pandas_evaluate, 'evaluate.arff')
-    os.system("rm files-arff/* & mv *.arff files-arff/")
+    os.system("rm files-arff/ilegal/* & mv *.arff files-arff/ilegal/")
