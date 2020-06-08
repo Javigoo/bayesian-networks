@@ -6,7 +6,7 @@ import random
 from shutil import copyfile
 
 def divide_dataset(data_file):
-    random.seed(33543)  # Ultimos 5 digitos del DNI de algun miembro del grupo
+    random.seed(33543)  # Ultimos 5 digitos del DNI de un miembro del grupo
 
     learning = open(learning_file, "w")
     evaluation = open(evaluation_file, "w")
@@ -51,32 +51,26 @@ def parse_to_arff(csv_file):
 
 def process_data(tmp, file):
     with open(file, 'r') as f:
-        attributes = f.readline().strip().split(",") # Descartamos la primera linea (Atributos)
+        attributes = f.readline().strip().split(",") # Obtenemos la primera linea con el nombre de los atributos
         tmp.write("@DATA\n")
-        for line in f:
-            tmp.write(set_data(line,attributes)+"\n")
+        for row in f:
+            tmp.write(set_data(row,attributes)+"\n")
 
 
 def set_data(data_row, attributes):
     # Procesa un registro de entrada para cada atributo en funcion de su tipo de datos
     data = []
     raw_data = data_row.strip().split(",")
-
     for element in zip(raw_data, attributes):
-        value = element[0]
-        attribute = element[1]
+        data.append(get_corresponding_value(element[0],element[1]))
 
-        data.append(get_discrete_value(value,attribute))
-
-    data = ",".join(data)
-    return data
+    return ",".join(data)
 
 
-def get_discrete_value(value, attribute):
+def get_corresponding_value(value, attribute):
     # Modifica los valores reales para asignarles un rango discreto
     if get_type(value) == "REAL":
-        return get_range_decimals(value, attribute)
-
+        return get_discrete_value(value, attribute)
     # Modifica las cadenas de texto para aportar un formato correcto
     elif get_type(value) == "STRING":
         return  "'"+value+"'"
@@ -88,26 +82,25 @@ def get_type(element):
     # Esto metodo devuelve el tipo de datos de un atributo al que se corresponde con el tipo de datos que utiliza Weka
     if element.isdigit():
         return "INTEGER"
-    elif element.replace(".", "").isdigit():
+    elif element.replace(".", "", 1).isdigit():
         return "REAL"
     else:
         return "STRING"
 
 
-def get_range_decimals(value, attribute):
-    split_value = value.split(".")
-    unidad = split_value[0]
-    decimal = split_value[1]
+def get_discrete_value(value, attribute):
+    unit = value.split(".")[0]
+    decimal = value.split(".")[1]
 
-    if attribute in discrete_range_decimals:
-        decimal_range_for_an_attribute = discrete_range_decimals[attribute]
+    if attribute in attributes_discrete_range_decimals:
+        decimal_range_for_an_attribute = attributes_discrete_range_decimals[attribute]
         decimal = decimal[:decimal_range_for_an_attribute]
-        return unidad+"."+decimal
+        return unit+"."+decimal
 
-    return unidad
+    return unit
 
 def process_attribute(tmp, file):
-    # Define el nombre del atributo y su tipo de datos
+    # Obtiene el nombre del atributo y sus posibles valores
     attributes_discrete_set = get_values_for_an_attribute(file)
 
     tmp.write("\n")
@@ -125,36 +118,41 @@ def process_attribute(tmp, file):
 
 
 def get_values_for_an_attribute(file):
+    # Este metodo devuelve todos los posibles valores que le corresponden a un atributo
     attribute_values = {}
 
     with open(file, 'r') as f:
         attributes = f.readline().strip().split(",")
 
+    # Recorremos todos los atributos
     for attribute_column in range(len(attributes)):
+        values_for_attribute = []
+        current_attribute = attributes[attribute_column]
         with open(file, 'r') as f:
             f.readline() # Descartamos el nombre de los atributos
-            values_for_attribute = []
+            # Para cada atributo guardamos sus valores
             for value in f:
                 # Aqui pasar a un rango discreto
-                raw_value = value.strip().split(",")[attribute_column]
-                value = get_discrete_value(raw_value, attributes[attribute_column])
+                raw_value = value.strip().split(",")[attribute_column] # Valor que se corresponde con la columna del atributo
+                value = get_corresponding_value(raw_value, current_attribute)
 
                 if value not in values_for_attribute:
                     values_for_attribute.append(value)
 
-            attribute_values[attributes[attribute_column]] = values_for_attribute
+            # Guardamos para el atributo actual su conjunto de valores
+            attribute_values[current_attribute] = values_for_attribute
 
     return attribute_values
 
 
 def main():
-    global relation_name, class_variable, percentage_for_learning, discrete_range_decimals
+    global relation_name, class_variable, percentage_for_learning, attributes_discrete_range_decimals
 
     # Variables globales
     relation_name = "AirBnB"
     class_variable = "overall_satisfaction"
     percentage_for_learning = 75
-    discrete_range_decimals = {"overall_satisfaction":1, "latitude":3, "longitude":3}
+    attributes_discrete_range_decimals = {"overall_satisfaction":1, "latitude":3, "longitude":3}
 
     divide_dataset(data_file)
     parse_to_arff(learning_file)
