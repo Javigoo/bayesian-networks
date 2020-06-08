@@ -4,6 +4,7 @@ import os
 import sys
 import random
 from shutil import copyfile
+import pandas
 
 
 def divide_dataset(data_file):
@@ -30,6 +31,7 @@ def divide_dataset(data_file):
 
 
 def parse_to_arff(csv_file):
+    print(pandas.read_csv(csv_file))
     # Creamos un archivo temporal para guardar los datos trasformados a ARFF
     tmp = open("tmp", "w")
 
@@ -76,15 +78,7 @@ def set_data(data_row, attributes):
 def get_discrete_value(value, attribute):
     # Modifica los valores reales para asignarles un rango discreto
     if get_type(value) == "REAL":
-        split_value = value.split(".")
-        unidad = split_value[0]
-
-        if(discrete_range_decimals == 0):
-            return unidad
-
-        decimal = split_value[1][:discrete_range_decimals]
-
-        return unidad+"."+decimal
+        return get_range_decimals(value, attribute)
 
     # Modifica las cadenas de texto para aportar un formato correcto
     elif get_type(value) == "STRING":
@@ -92,6 +86,18 @@ def get_discrete_value(value, attribute):
 
     return value
 
+
+def get_range_decimals(value, attribute):
+    split_value = value.split(".")
+    unidad = split_value[0]
+    decimal = split_value[1]
+
+    if attribute in discrete_range_decimals:
+        decimal_range_for_an_attribute = discrete_range_decimals[attribute]
+        decimal = decimal[:decimal_range_for_an_attribute]
+        return unidad+"."+decimal
+
+    return unidad
 
 def process_attribute(tmp, file):
     # Define el nombre del atributo y su tipo de datos
@@ -142,7 +148,7 @@ def main():
     # Variables globales
     relation_name = "AirBnB"
     percentage_for_learning = 75
-    discrete_range_decimals = 0
+    discrete_range_decimals = {"overall_satisfaction":1, "latitude":6, "longitude":6}
 
     divide_dataset(data_file)
     parse_to_arff(learning_file)
