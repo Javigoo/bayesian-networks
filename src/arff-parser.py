@@ -4,8 +4,6 @@ import os
 import sys
 import random
 from shutil import copyfile
-import pandas
-
 
 def divide_dataset(data_file):
     random.seed(33543)  # Ultimos 5 digitos del DNI de algun miembro del grupo
@@ -31,7 +29,6 @@ def divide_dataset(data_file):
 
 
 def parse_to_arff(csv_file):
-    print(pandas.read_csv(csv_file))
     # Creamos un archivo temporal para guardar los datos trasformados a ARFF
     tmp = open("tmp", "w")
 
@@ -87,6 +84,16 @@ def get_discrete_value(value, attribute):
     return value
 
 
+def get_type(element):
+    # Esto metodo devuelve el tipo de datos de un atributo al que se corresponde con el tipo de datos que utiliza Weka
+    if element.isdigit():
+        return "INTEGER"
+    elif element.replace(".", "").isdigit():
+        return "REAL"
+    else:
+        return "STRING"
+
+
 def get_range_decimals(value, attribute):
     split_value = value.split(".")
     unidad = split_value[0]
@@ -105,7 +112,15 @@ def process_attribute(tmp, file):
 
     tmp.write("\n")
     for attribute in attributes_discrete_set.items():
-        tmp.write("@ATTRIBUTE " + attribute[0] + " {" + attribute[1] + "}\n")
+        attribute_name = attribute[0]
+        attribute_values = ",".join(attribute[1])
+        attribute_datatype = get_type(attribute[1][0]) # Primer valor para el atributo
+
+        if attribute_datatype == "STRING" or attribute_name == class_variable:
+            tmp.write("@ATTRIBUTE " + attribute_name + " {" + attribute_values + "}\n")
+        else:
+            tmp.write("@ATTRIBUTE " + attribute_name + " " + attribute_datatype + "\n")
+
     tmp.write("\n")
 
 
@@ -127,28 +142,19 @@ def get_values_for_an_attribute(file):
                 if value not in values_for_attribute:
                     values_for_attribute.append(value)
 
-            attribute_values[attributes[attribute_column]] = ",".join(values_for_attribute)
+            attribute_values[attributes[attribute_column]] = values_for_attribute
 
     return attribute_values
 
 
-def get_type(element):
-    # Esto metodo devuelve el tipo de datos de un atributo al que se corresponde con el tipo de datos que utiliza Weka
-    if element.isdigit():
-        return "INTEGER"
-    elif element.replace(".", "", 1).isdigit():
-        return "REAL"
-    else:
-        return "STRING"
-
-
 def main():
-    global relation_name, percentage_for_learning, discrete_range_decimals
+    global relation_name, class_variable, percentage_for_learning, discrete_range_decimals
 
     # Variables globales
     relation_name = "AirBnB"
+    class_variable = "overall_satisfaction"
     percentage_for_learning = 75
-    discrete_range_decimals = {"overall_satisfaction":1, "latitude":6, "longitude":6}
+    discrete_range_decimals = {"overall_satisfaction":1, "latitude":3, "longitude":3}
 
     divide_dataset(data_file)
     parse_to_arff(learning_file)
