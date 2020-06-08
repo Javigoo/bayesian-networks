@@ -96,7 +96,7 @@ def set_data(data_row):
         # Modifica los valores reales para asignarles un rango discreto
         if get_type(element) == "REAL":
             number = element.split(".")
-            result_number = number[0]+"."+number[1][:discrete_range_decimals] # Numero de decimales que cogemos
+            result_number = number[0]   #+"."+number[1][:discrete_range_decimals] # Numero de decimales que cogemos
             data.append(result_number)
 
         # Modifica las cadenas de texto para aportar un formato correcto
