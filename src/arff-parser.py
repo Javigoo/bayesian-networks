@@ -39,14 +39,10 @@ def parse_to_arff(csv_file):
     tmp.write("@RELATION "+ relation_name + "\n")
 
     # @ATTRIBUTE - Obtenemos el nombre del atributo y su tipo de datos
-    set_attributes(tmp, get_attributes_type(csv_file))
+    process_attribute(tmp, csv_file)
 
     # @DATA - Procesamos los valores de los atributos para cada instancia
-    with open(csv_file, 'r') as f:
-        f.readline() # Descartamos la primera linea (Atributos)
-        tmp.write("@DATA\n")
-        for line in f:
-            tmp.write(set_data(line)+"\n")
+    process_data(tmp, csv_file)
 
     # Por ultimo copiamos los datos en el archivo deseado y eliminamos el archivo temporal
     tmp.close()
@@ -54,18 +50,80 @@ def parse_to_arff(csv_file):
     os.remove("tmp")
 
 
-def get_attributes_type(file):
-    # Con este metodo devolvemos el nombre de los atributos y su tipo de datos asociado
-    attribute_name_type = {}
+def process_data(tmp, file):
     with open(file, 'r') as f:
-        # Para no asignar manualmente el tipo de datos de un atributo lo obtenemos
-        # buscando en la primera fila los tipos de datos que tienen un valor para cada atributo
-        attributes_name = f.readline().strip().split(",")
-        first_row = f.readline().strip().split(",")
-        for name_type in zip(attributes_name, first_row):
-            attribute_name_type[name_type[0]] = get_type(name_type[1])
+        attributes = f.readline().strip().split(",") # Descartamos la primera linea (Atributos)
+        tmp.write("@DATA\n")
+        for line in f:
+            tmp.write(set_data(line,attributes)+"\n")
 
-    return attribute_name_type
+
+def set_data(data_row, attributes):
+    # Procesa un registro de entrada para cada atributo en funcion de su tipo de datos
+    data = []
+    raw_data = data_row.strip().split(",")
+
+    for element in zip(raw_data, attributes):
+        value = element[0]
+        attribute = element[1]
+
+        data.append(get_discrete_value(value,attribute))
+
+    data = ",".join(data)
+    return data
+
+
+def get_discrete_value(value, attribute):
+    # Modifica los valores reales para asignarles un rango discreto
+    if get_type(value) == "REAL":
+        split_value = value.split(".")
+        unidad = split_value[0]
+
+        if(discrete_range_decimals == 0):
+            return unidad
+
+        decimal = split_value[1][:discrete_range_decimals]
+
+        return unidad+"."+decimal
+
+    # Modifica las cadenas de texto para aportar un formato correcto
+    elif get_type(value) == "STRING":
+        return  "'"+value+"'"
+
+    return value
+
+
+def process_attribute(tmp, file):
+    # Define el nombre del atributo y su tipo de datos
+    attributes_discrete_set = get_values_for_an_attribute(file)
+
+    tmp.write("\n")
+    for attribute in attributes_discrete_set.items():
+        tmp.write("@ATTRIBUTE " + attribute[0] + " {" + attribute[1] + "}\n")
+    tmp.write("\n")
+
+
+def get_values_for_an_attribute(file):
+    attribute_values = {}
+
+    with open(file, 'r') as f:
+        attributes = f.readline().strip().split(",")
+
+    for attribute_column in range(len(attributes)):
+        with open(file, 'r') as f:
+            f.readline() # Descartamos el nombre de los atributos
+            values_for_attribute = []
+            for value in f:
+                # Aqui pasar a un rango discreto
+                raw_value = value.strip().split(",")[attribute_column]
+                value = get_discrete_value(raw_value, attributes[attribute_column])
+
+                if value not in values_for_attribute:
+                    values_for_attribute.append(value)
+
+            attribute_values[attributes[attribute_column]] = ",".join(values_for_attribute)
+
+    return attribute_values
 
 
 def get_type(element):
@@ -78,45 +136,13 @@ def get_type(element):
         return "STRING"
 
 
-def set_attributes(file, attributes):
-    # Define el nombre del atributo y su tipo de datos
-    file.write("\n")
-    for attribute in attributes.items():
-        file.write("@ATTRIBUTE " + attribute[0] + " " + attribute[1] + "\n")
-    file.write("\n")
-
-
-def set_data(data_row):
-    # Procesa un registro de entrada para cada atributo en funcion de su tipo de datos
-    data = []
-    raw_data = data_row.strip().split(",")
-
-    for element in raw_data:
-
-        # Modifica los valores reales para asignarles un rango discreto
-        if get_type(element) == "REAL":
-            number = element.split(".")
-            result_number = number[0]   #+"."+number[1][:discrete_range_decimals] # Numero de decimales que cogemos
-            data.append(result_number)
-
-        # Modifica las cadenas de texto para aportar un formato correcto
-        elif get_type(element) == "STRING":
-            data.append("'"+element+"'")
-
-        else:
-            data.append(element)
-
-    data = ",".join(data)
-    return data
-
-
 def main():
     global relation_name, percentage_for_learning, discrete_range_decimals
 
     # Variables globales
     relation_name = "AirBnB"
     percentage_for_learning = 75
-    discrete_range_decimals = 3
+    discrete_range_decimals = 0
 
     divide_dataset(data_file)
     parse_to_arff(learning_file)
